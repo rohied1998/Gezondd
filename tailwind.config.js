@@ -3,10 +3,10 @@ module.exports = {
     purge: ["./pages/**/*.{js,ts,jsx,tsx}", "./components/**/*.{js,ts,jsx,tsx}"],
     darkMode: false, // or 'media' or 'class'
     theme: {
-        fontFamily: {
-            varela: ["Varela", "sans-serif"],
-        },
         extend: {
+            fontFamily: {
+                sans: ['Varela\\ Round', 'sans-serif'],
+            },
             backgroundImage: (theme) => ({
                 home: "url('/home.png')",
             }),

@@ -11,39 +11,37 @@ export default function Home() {
                 <title>Gezondd</title>
                 <link rel="icon" href="/favicon.ico" />
                 <link
-                    rel="preload"
-                    href="/fonts/Varela/Varela-Regular.ttf"
-                    as="font"
-                    crossOrigin=""
-                />
+                    href="https://fonts.googleapis.com/css?family=Varela+Round"
+                    rel="stylesheet"
+                ></link>
             </Head>
             <section className="flex flex-col items-end flex-1 w-full h-screen bg-home bg-cover">
                 <Nav></Nav>
-                <div className="text-white font-varela w-5/12 justify-end my-96 mr-12">
+                <div className="text-white font-varela w-5/12 justify-end my-96 mr-20 ">
                     <p className="text-6xl text-left">
                         Ambities realiseren door optimaal presteren
                     </p>
-                    <p className="my-4 text-left">
+                    <p className="my-8 text=left w-10/12 leading-relaxed tracking-widest">
                         Gezondd ondersteunt organisaties en haar medewerkers om vitaal en inzetbaar
                         te blijven. Een goede gezondheid is immers de basis om optimaal te kunnen
                         blijven werken of te ondernemen.
                     </p>
                     <Button
                         label="Over Gezondd"
-                        className="bg-green-pastel px-8 py-3 rounded-3xl ml-60"
+                        className="bg-green-pastel px-8 py-3 rounded-3xl ml-60 tracking-wider"
                     />
                 </div>
             </section>
 
             <section className="bg-white">
-                <p className="text-3xl my-40 mx-24">
+                <p className="text-3xl my-40 mx-24 font-bold tracking-widest text-left">
                     Gezondd is dé expert als het gaat om inzet van maatwerk (medische) expertise op
                     het snijvlak van gezondheid en arbeid. Er wordt in overleg met werkgever,
                     werknemer of zelfstandig ondernemer gekeken naar mogelijkheden om:
                 </p>
 
-                <div className="grid grid-cols-3 gap-8 mx-24 my-16 text-center">
-                    <div className="rounded-md bg-green-light p-20">
+                <div className="grid grid-cols-3 gap-8 mx-24 my-16 text-left">
+                    <div className="rounded-md bg-green-light p-20 ">
                         <p>
                             Oorzaken van verzuim goed in beeld te krijgen en door inzet van onze
                             deskundigheid en effectieve interventies het verzuim te verlagen en
@@ -67,14 +65,14 @@ export default function Home() {
                     </div>
                 </div>
 
-                <div className="grid gap-8 mx-24 my-12 p-12 bg-green-pastel text-center rounded-md">
+                <div className="grid gap-8 mx-24 my-12 p-12 bg-green-pastel text-left rounded-md">
                     <p>
                         De gezondheid van uw medewerkers of uzelf te vergroten op korte én langere
                         termijn, zodat bereikte gezondheidswinst duurzaam behouden blijft.
                     </p>
                 </div>
 
-                <div className="grid grid-cols-3 gap-8 mx-24 text-center">
+                <div className="grid grid-cols-3 gap-8 mx-24 text-left">
                     <div className="rounded-md bg-green-light p-16">
                         <p>
                             Geldende wet- en regelgeving rond verzuim, re-integratie, dreigende
@@ -109,8 +107,8 @@ export default function Home() {
                         </p>
                     </div>
                 </div>
-                <div className="rounded-md bg-gray-50 p-16 my-24">
-                    <p className="ml-10 mr-72">
+                <div className="rounded-md bg-gray-50 p-16 my-24 w-full flex">
+                    <p className="ml-10 mr-36 text-gray-500 w-7/12 tracking-wider leading-relaxed text-xl anti">
                         Uw vragen op het gebied van werk en gezondheid, voor uzelf of uw
                         medewerkers, worden door Gezondd snel beantwoord door onze bedrijfsartsen,
                         verzuim- en reïntegratie experts, klinisch arbeidsgeneeskundigen (IKA Ned),
@@ -119,7 +117,7 @@ export default function Home() {
                     </p>
                     <Button
                         label="Voor meer vragen"
-                        className="bg-blue-aqua h-12 w-40 rounded-3xl ml-36"
+                        className="bg-blue-aqua h-16 w-80 my-8 rounded-full font-bold text-white"
                     />
                 </div>
             </section>

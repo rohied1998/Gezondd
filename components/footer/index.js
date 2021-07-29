@@ -1,52 +1,55 @@
 import React from "react";
 import Image from "next/image";
-import s from "./index.module.css";
 
 export class Footer extends React.Component {
     render() {
         return (
             <footer>
-                <div className="min-w-full bg-gray-100 ">
-                    <div className="grid grid-cols-5 gap-4">
-                        <div className="h-48 w-48 mx-16 ml-14 justify-self-center">
-                            <img src="gezondd.svg" alt="Footer Gezondd" />
-                            <p className="mt-4">Ambities realiseren door optimaal presteren</p>
+                <div className="min-w-full bg-gray-100">
+                    <div className="grid grid-cols-4 gap-4">
+                        <div className="mx-16 ml-14 justify-self-center mt-16">
+                            <img src="gezondd-footer.png" alt="Footer Gezondd" />
+                            <p className="mt-6 h-40 w-40 text-center ml-24 font-medium tracking-wide">
+                                Ambities realiseren door optimaal presteren
+                            </p>
                         </div>
 
-                        <div className="m-5 w-48 justify-self-center">
-                            <div className="text-xs uppercase text-gray-500 font-medium">
-                                Contact
+                        <div className="m-5 w-48 justify-self-center mt-20">
+                            <div>
+                                <p className="uppercase text-gray-800 font-bold text-sm mb-2">
+                                    Contact
+                                </p>
                             </div>
-                            Email: info@gezondd.nl Telefoon: 085 015 0020 Adres: Koninginnegracht 19
-                            2514 AB s'Gravenhage
+                            <p>Email: info@gezondd.nl</p>
+                            <p>Telefoon: 085 015 0020</p>
+                            <p>Adres: Koninginnegracht 19</p>
+                            <p>2514 AB s'Gravenhage</p>
                         </div>
 
-                        <div className="p-5 w-48 justify-self-center">
-                            <div className="text-xs uppercase text-gray-500 font-medium">
+                        <div className="p-5 w-48 justify-self-center  mt-16">
+                            <p className="uppercase text-gray-800 font-bold text-sm mb-2">
                                 Vestigingen
-                            </div>
+                            </p>
                             <p>Amsterdam</p>
                             <p>Rotterdam</p>
                             <p>Den Haag</p>
                         </div>
 
-                        <div className="p-5 w-48 justify-self-center">
-                           
-                            <div className="text-xs uppercase text-gray-500 font-medium">
-                            <div className="float-right ml-8">
+                        <div className="p-5 w-48 justify-self-center mt-16">
+                            <p className="uppercase text-gray-800 font-bold text-sm mb-2">Links</p>
+                            <p>Klachten regeling en Privacy reglement</p>
+                            <div className="grid place-content-end w-40 h-4 space-y-4">
                                 <img src="linkedin.png" alt="linkedin" />
                                 <img src="instagram.png" alt="instagram" />
                                 <img src="twitter.png" alt="twitter" />
                             </div>
-                               Links
-                                
-                            </div>
-                            <p>Klachten regeling en Privacy reglement</p>
                         </div>
                     </div>
 
-                    <div className="text-gray-800 text-center pb-8">
-                        © Gezondd Inc. All rights reserved
+                    <div>
+                        <p className="text-gray-500 text-center pb-8 tracking-wider">
+                            © Gezondd Inc. All rights reserved
+                        </p>
                     </div>
                 </div>
             </footer>
