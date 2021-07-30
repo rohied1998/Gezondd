@@ -12,9 +12,9 @@ export default function Over() {
         <>
             <Head />
             <Nav />
-            <section>
-                <div>
-                    <p>
+            <section className="flex flex-col items-end flex-1 w-full">
+                <div >
+                    <p className="text-6xl text-white bg-doktor bg-no-repeat bg-cover my-32 h-5/6">
                         Gezondd heeft als missie om op een positieve manier een bijdrage te leveren
                         aan arbeid en gezondheid in Nederland voor werkgevers, werknemers en de meer
                         dan één miljoen zelfstandigen en ondernemers, een groep die vaak vergeten

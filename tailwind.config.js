@@ -9,6 +9,7 @@ module.exports = {
             },
             backgroundImage: (theme) => ({
                 home: "url('/home.png')",
+                doktor: "url('/afbeelding1.jpg')",
             }),
             colors: {
                 "green-pastel": "#82C074",

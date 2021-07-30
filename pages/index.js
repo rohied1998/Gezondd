@@ -15,7 +15,7 @@ export default function Home() {
                     rel="stylesheet"
                 ></link>
             </Head>
-            <section className="flex flex-col items-end flex-1 w-full h-screen bg-home bg-cover">
+            <section className="flex flex-col items-end flex-1 w-full h-screen bg-home bg-cover homepage">
                 <Nav></Nav>
                 <div className="text-white font-varela w-5/12 justify-end my-96 mr-20 ">
                     <p className="text-6xl text-left">

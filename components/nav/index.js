@@ -1,4 +1,5 @@
 import React from "react";
+import Link from "next/link";
 
 export class Nav extends React.Component {
     render() {
@@ -6,44 +7,50 @@ export class Nav extends React.Component {
             <nav className="fixed">
                 <ul className="grid grid-cols-8 my-8 mx-10  text-xl ">
                     <li className="justify-self-center">
-                        <a href="#responsive-header" className="">
-                            <img src="gezondd-footer.png" alt="Navigatie Gezondd Logo" />
-                        </a>
+                        <Link href="/">
+                            <a href="#homepage" className="">
+                                <img src="gezondd-footer.png" alt="Navigatie Gezondd Logo" />
+                            </a>
+                        </Link>
                     </li>
                     <li className="mt-3 text-center ml-4">
-                        <a href="#responsive-header" className="text-green-pastel hover:text-white ">
-                            Over Gezondd
-                        </a>
+                        <Link href="/over">
+                            <a className="text-green-pastel hover:text-white ">Over Gezondd</a>
+                        </Link>
                     </li>
                     <li className="mt-3 text-left ml-8">
-                        <a href="#responsive-header" className="text-green-pastel hover:text-white">
-                            Werkgever
-                        </a>
+                        <Link href="/werkgever">
+                            <a className="text-green-pastel hover:text-white">Werkgever</a>
+                        </Link>
                     </li>
                     <li className="mt-3 text-center">
-                        <a href="#responsive-header" className="text-green-pastel hover:text-white tracking-tight">
-                            Zelfstandige/Ondernemer
-                        </a>
+                        <Link href="/zelfstandigen-ondernemer">
+                            <a className="text-green-pastel hover:text-white tracking-tight">
+                                Zelfstandige/Ondernemer
+                            </a>
+                        </Link>
+                    </li>
+                    <li className="mt-3 text-center ml-16">
+                        <Link href="/casemanager">
+                            <a className="text-green-pastel hover:text-white">Casemanager</a>
+                        </Link>
                     </li>
                     <li className="mt-3 text-center ml-8">
-                        <a href="#responsive-header" className="text-green-pastel hover:text-white">
-                            Casemanager
-                        </a>
-                    </li>
-                    <li className="mt-3 text-center ml-8">
-                        <a href="#responsive-header" className="text-green-pastel hover:text-white tracking-tighter">
-                            Bedrijfsarts/Arboprofessionals
-                        </a>
+                        <Link href="/bedrijfsarts-arboprofessionals">
+                            <a className="text-green-pastel hover:text-white tracking-tighter">
+                                Bedrijfsarts/Arboprofessionals
+                            </a>
+                        </Link>
                     </li>
                     <li className="mt-3 text-center ml-32">
-                        <a href="#responsive-header" className="text-green-pastel hover:text-white">
-                            IKA Ned
-                        </a>
+                        <Link href="/ika-ned">
+                            <a className="text-green-pastel hover:text-white">IKA Ned</a>
+                        </Link>
                     </li>
                     <li className="mt-3 text-center ml-4">
-                        <a href="#responsive-header" className="text-green-pastel hover:text-white">
-                            Contact
-                        </a>
+                        <Link href="/contact">
+                            <a className="text-green-pastel hover:text-white">Contact</a>
+                        </Link>
                     </li>
                 </ul>
             </nav>
