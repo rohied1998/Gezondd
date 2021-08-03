@@ -11,7 +11,7 @@ export default function Casemanager() {
         <>
             <Head />
             <Nav />
-            <section className="flex flex-col tracking-widest">
+            <section className="flex flex-col tracking-widest text-gray-700">
                 <div>
                     <p className="text-3xl font-bold mt-72 mx-52 leading-normal">
                         Als casemanager ben ik een belangrijke spin in het web, wanneer een

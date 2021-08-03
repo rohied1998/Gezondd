@@ -11,7 +11,7 @@ export default function BedrijfsartsArboprofessional() {
         <>
             <Head />
             <Nav />
-            <section className="flex flex-col tracking-widest">
+            <section className="flex flex-col tracking-widest text-gray-700">
                 <div>
                     <p className="text-3xl font-bold mt-72 mx-52 leading-normal">
                         Vanuit mijn deskundigheid als Arboprofessional of bedrijfsarts weet ik dat

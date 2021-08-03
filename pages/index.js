@@ -34,7 +34,7 @@ export default function Home() {
             </section>
 
             <section className="bg-white">
-                <p className="text-3xl my-40 mx-24 font-bold tracking-widest text-left">
+                <p className="text-2xl my-40  mx-24 tracking-widest text-left">
                     Gezondd is dé expert als het gaat om inzet van maatwerk (medische) expertise op
                     het snijvlak van gezondheid en arbeid. Er wordt in overleg met werkgever,
                     werknemer of zelfstandig ondernemer gekeken naar mogelijkheden om:
@@ -117,7 +117,7 @@ export default function Home() {
                     </p>
                     <Button
                         label="Voor meer vragen"
-                        className="bg-blue-aqua h-16 w-80 my-8 rounded-full font-bold text-white"
+                        className="bg-blue-aqua h-16 w-80 my-8 rounded-full font-bold text-white drop-shadow-lg"
                     />
                 </div>
             </section>

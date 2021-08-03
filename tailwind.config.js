@@ -5,7 +5,7 @@ module.exports = {
     theme: {
         extend: {
             fontFamily: {
-                sans: ['Varela\\ Round', 'sans-serif'],
+                sans: ["Varela\\ Round", "sans-serif"],
             },
             backgroundImage: (theme) => ({
                 home: "url('/home.png')",
@@ -15,6 +15,7 @@ module.exports = {
                 "green-pastel": "#82C074",
                 "green-light": "#D5E9CF",
                 "blue-aqua": "#83CDE0",
+                "gray-light": "#FBFBFB",
             },
         },
     },

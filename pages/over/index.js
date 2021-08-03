@@ -22,7 +22,7 @@ export default function Over() {
                 </div>
             </section>
             <section className="flex flex-col mx-96 tracking-widest">
-                <p className="text-3xl font-bold my-12 leading-normal">
+                <p className="text-3xl my-12 leading-normal">
                     Gezondd is hét aanspreekpunt voor u als werkgever, werknemer, casemanager,
                     bedrijfsarts, Arbo professional of zelfstandig ondernemer voor vragen op het
                     gebied van:
@@ -67,17 +67,17 @@ export default function Over() {
                             letselschadeslachtoffers
                         </li>
                     </ul>
-                    <p className="text-lg my-12">
-                        Bij MyHealth werken bedrijfsartsen, verzekeringsartsen, (interculturele)
+                    <p className="text-lg my-12 text-gray-700">
+                        Bij Gezondd werken bedrijfsartsen, verzekeringsartsen, (interculturele)
                         reïntegratie-adviseurs, arbeidshygiënisten, veiligheidsdeskundigen en
-                        arbeids- en organisatiedeskundigen. Daarnaast beschikt MyHealth over een
+                        arbeids- en organisatiedeskundigen. Daarnaast beschikt Gezondd over een
                         uitgebreid netwerk aan medisch specialisten (klinisch
                         arbeidsgeneeskundigen), juridische en letselschadeadviseurs en
                         interculturele experts.
                     </p>
                 </div>
-                <p className="text-3xl font-bold">Intercultureel</p>
-                <p className="text-lg my-12">
+                <p className="text-3xl ">Intercultureel</p>
+                <p className="text-lg mt-12 mb-24 text-gray-700">
                     Gezondd beschikt over medewerkers met een niet-westerse achtergrond. Daarom kan
                     Gezondd bij uitstek werknemers, zelfstandige ondernemers en
                     letselschadeslachtoffers met een niet-westerse culturele achtergrond goed
@@ -86,8 +86,8 @@ export default function Over() {
             </section>
             <section className="flex flex-1 bg-gray-100 py-24 tracking-widest">
                 <div className="mx-96">
-                    <p className="text-3xl font-bold">Landelijke dienstverlening</p>
-                    <p className="my-6">MyHealth werkt vanuit drie vaste locaties:</p>
+                    <p className="text-3xl">Landelijke dienstverlening</p>
+                    <p className="my-6">Gezondd werkt vanuit drie vaste locaties:</p>
                     <div className="grid grid-cols-3 gap-14 mt-12 text-2xl">
                         <div className="relative bg-blue-aqua pt-8 rounded-2xl">
                             <div className="bg-white w-full h-full text-center font-bold text-blue-aqua rounded-2xl p-16 z-10">

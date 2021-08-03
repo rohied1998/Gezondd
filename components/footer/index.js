@@ -8,7 +8,7 @@ export class Footer extends React.Component {
                 <div className="min-w-full bg-gray-100 tracking-widest">
                     <div className="grid grid-cols-4 gap-4">
                         <div className="mx-16 ml-14 justify-self-center mt-16">
-                            <img src="gezondd-footer.png" alt="Footer Gezondd" />
+                            <img src="gezondd-footer.png" className="h-14 w-28" alt="Footer Gezondd" />
                             <p className="mt-6 h-40 w-40 text-center ml-24 font-medium tracking-wide">
                                 Ambities realiseren door optimaal presteren
                             </p>
