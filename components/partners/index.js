@@ -3,7 +3,7 @@ import React from "react";
 export class Partners extends React.Component {
     render() {
         return (
-            <div>
+            <div className="tracking-widest">
                 <p className="text-center text-3xl my-12">Onze partners</p>
                 <div className="grid grid-cols-7 gap-8 mx-24 mb-20 justify-items-center">
                     <img src="ika.png" alt="IKA Ned en IKA Academy" className="w-36" />

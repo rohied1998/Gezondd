@@ -5,7 +5,7 @@ export class Footer extends React.Component {
     render() {
         return (
             <footer>
-                <div className="min-w-full bg-gray-100">
+                <div className="min-w-full bg-gray-100 tracking-widest">
                     <div className="grid grid-cols-4 gap-4">
                         <div className="mx-16 ml-14 justify-self-center mt-16">
                             <img src="gezondd-footer.png" alt="Footer Gezondd" />
@@ -14,7 +14,7 @@ export class Footer extends React.Component {
                             </p>
                         </div>
 
-                        <div className="m-5 w-48 justify-self-center mt-20">
+                        <div className="m-5 w-full justify-self-center ml-32 mt-20">
                             <div>
                                 <p className="uppercase text-gray-800 font-bold text-sm mb-2">
                                     Contact

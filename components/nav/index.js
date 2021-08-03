@@ -24,7 +24,7 @@ export class Nav extends React.Component {
                         </Link>
                     </li>
                     <li className="mt-3 text-center">
-                        <Link href="/zelfstandigen-ondernemer">
+                        <Link href="/zelfstandige-ondernemer">
                             <a className="text-green-pastel hover:text-white tracking-tight">
                                 Zelfstandige/Ondernemer
                             </a>
