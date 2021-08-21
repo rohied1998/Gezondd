@@ -4,7 +4,7 @@ import Link from "next/link";
 export class Nav extends React.Component {
     render() {
         return (
-            <nav className="fixed bg-white w-screen">
+            <nav className="fixed bg-white w-screen z-10">
                 <ul className="flex flex-row my-8 mx-10 gap-20 text-base ">
                     <li className="justify-self-center">
                         <Link href="/">
@@ -27,24 +27,24 @@ export class Nav extends React.Component {
                             <a className="text-black hover:text-white">Werkgever</a>
                         </Link>
                     </li>
-                    <li className="mt-1.5 text-left ml-6">
+                    <li className="mt-1.5 text-left ml-4">
                         <Link href="/werknemer">
                             <a className="text-black hover:text-white">Werknemer</a>
                         </Link>
                     </li>
-                    <li className="mt-1.5 text-center mr-12">
+                    <li className="mt-1.5 text-center ml-4">
                         <Link href="/zelfstandige-ondernemer">
                             <a className="text-black hover:text-white tracking-tight">
                                 Zelfstandige/Ondernemer
                             </a>
                         </Link>
                     </li>
-                    <li className="mt-1.5 text-center justify-self-center mr-6">
+                    <li className="mt-1.5 text-center justify-self-center ml-4">
                         <Link href="/casemanager">
                             <a className="text-black hover:text-white">Casemanager</a>
                         </Link>
                     </li>
-                    <li className="mt-1.5 text-center justify-self-center ">
+                    <li className="mt-1.5 text-center justify-self-center ml-2">
                         <Link href="/bedrijfsarts-arboprofessionals">
                             <a className="text-black hover:text-white tracking-tighter">
                                 Bedrijfsarts/Arboprofessionals

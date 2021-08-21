@@ -14,18 +14,18 @@ export default function Contact() {
             <section className="flex flex-col tracking-widest ">
                 <div className="grid grid-cols-2 mt-44 gap-8">
                     <div className="ml-44">
-                        <p className="text-3xl font-bold">Contact gegevens</p>
-                        <p>MyHealth BV</p>
-                        <p>Koninginnegracht 19</p>
-                        <p>2514 AB ’s-Gravenhage</p>
-                        <p>Tel: 085 015 0020</p>
+                        <p className="text-3xl">Contact gegevens</p>
+                        <p className="mt-12 text-lg">MyHealth BV</p>
+                        <p className="text-lg">Koninginnegracht 19</p>
+                        <p className="text-lg">2514 AB ’s-Gravenhage</p>
+                        <p className="text-lg">Tel: 085 015 0020</p>
 
-                        <p>Kamer van Koophandel: 75655489</p>
+                        <p className="text-lg">Kamer van Koophandel: 75655489</p>
 
-                        <p>BTW nummer: NL860354519B01</p>
-                        <p>Banknummer: NL02 RABO 0345 4696 90</p>
+                        <p className="text-lg">BTW nummer: NL860354519B01</p>
+                        <p className="text-lg">Banknummer: NL02 RABO 0345 4696 90</p>
                     </div>
-                    <div>
+                    <div className="">
                         <iframe
                             width="600"
                             height="450"

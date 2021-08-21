@@ -11,9 +11,9 @@ export default function Over() {
         <>
             <Head />
             <Nav />
-            <section className="flex flex-col items-end flex-1 w-full h-screen">
-                <div className="bg-doktor bg-no-repeat bg-cover bg-center mt-28 h-4/5">
-                    <p className="text-4xl text-white font-bold text-left my-44 mx-72 leading-loose tracking-widest">
+            <section className="flex flex-col items-end flex-1 w-full h-full">
+                <div className="bg-doktor bg-no-repeat bg-cover bg-center mt-28 h-3/5">
+                    <p className="text-2xl text-white font-bold text-left my-52 mx-72 tracking-widest ">
                         Gezondd heeft als missie om op een positieve manier een bijdrage te leveren
                         aan arbeid en gezondheid in Nederland voor werkgevers, werknemers en de meer
                         dan één miljoen zelfstandigen en ondernemers, een groep die vaak vergeten
@@ -22,13 +22,13 @@ export default function Over() {
                 </div>
             </section>
             <section className="flex flex-col mx-96 tracking-widest">
-                <p className="text-3xl my-12 leading-normal">
+                <p className="text-2xl mt-20 mb-16 leading-normal ">
                     Gezondd is hét aanspreekpunt voor u als werkgever, werknemer, casemanager,
                     bedrijfsarts, Arbo professional of zelfstandig ondernemer voor vragen op het
                     gebied van:
                 </p>
                 <div>
-                    <ul className="list-disc mx-6 text-lg text-gray-700">
+                    <ul className="list-disc text-lg">
                         <li>Arbeidsomstandighedenbeleid en Arbo deskundigen</li>
                         <li>Verzuimbeleid en verzuimmanagementexperts</li>
                         <li>Gezondheids- en preventiebeleid</li>
@@ -67,7 +67,7 @@ export default function Over() {
                             letselschadeslachtoffers
                         </li>
                     </ul>
-                    <p className="text-lg my-12 text-gray-700">
+                    <p className="text-lg my-12">
                         Bij Gezondd werken bedrijfsartsen, verzekeringsartsen, (interculturele)
                         reïntegratie-adviseurs, arbeidshygiënisten, veiligheidsdeskundigen en
                         arbeids- en organisatiedeskundigen. Daarnaast beschikt Gezondd over een
@@ -77,7 +77,7 @@ export default function Over() {
                     </p>
                 </div>
                 <p className="text-3xl ">Intercultureel</p>
-                <p className="text-lg mt-12 mb-24 text-gray-700">
+                <p className="text-lg mt-12 mb-24">
                     Gezondd beschikt over medewerkers met een niet-westerse achtergrond. Daarom kan
                     Gezondd bij uitstek werknemers, zelfstandige ondernemers en
                     letselschadeslachtoffers met een niet-westerse culturele achtergrond goed

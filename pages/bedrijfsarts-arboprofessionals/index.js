@@ -11,9 +11,9 @@ export default function BedrijfsartsArboprofessional() {
         <>
             <Head />
             <Nav />
-            <section className="flex flex-col tracking-widest text-gray-700">
+            <section className="flex flex-col tracking-widest">
                 <div>
-                    <p className="text-3xl font-bold mt-72 mx-52 leading-normal">
+                    <p className="text-2xl mt-72 mx-52 leading-normal">
                         Vanuit mijn deskundigheid als Arboprofessional of bedrijfsarts weet ik dat
                         er veel factoren een rol spelen bij het gezond houden van werknemers, die
                         vanuit een bepaalde functie in een specifieke sector werkzaam zijn. De
@@ -29,29 +29,29 @@ export default function BedrijfsartsArboprofessional() {
                 </div>
                 <div className="mx-64">
                     <p className="mt-28">
-                        Bedrijfsartsen kunnen MyHealth inschakelen als een bepaalde medewerker een
-                        specialistische zorgvraag heeft. MyHealth kan in opdracht van de werkgever
+                        Bedrijfsartsen kunnen Gezondd inschakelen als een bepaalde medewerker een
+                        specialistische zorgvraag heeft. Gezondd kan in opdracht van de werkgever
                         diagnosticeren bij individuele casuïstiek en een behandeladvies geven.
-                        MyHealth adviseert in overleg met de betrokken bedrijfsarts richting de
+                        Gezondd adviseert in overleg met de betrokken bedrijfsarts richting de
                         medewerker. Dit gebeurt regelmatig wanneer er sprake is van een complexe
                         zorgvraag, waarbij door de eigen bedrijfsarts een doorverwijzing naar een
-                        medisch specialist noodzakelijk wordt geacht. MyHealth kan door de expertise
+                        medisch specialist noodzakelijk wordt geacht. Gezondd kan door de expertise
                         van de IKA Ned klinisch arbeidsgeneeskundigen een specialistische diagnose
                         opstellen, inclusief behandeladvies en doorverwijzing naar een medisch
                         specialist.
                     </p>
                     <p className="mt-6">
                         Het kan ook voorkomen dat door een specifiek ziektegeval, na onderzoek door
-                        MyHealth, nieuwe feiten bekend worden rond de oorzaak van deze ziekte op de
+                        Gezondd, nieuwe feiten bekend worden rond de oorzaak van deze ziekte op de
                         werkplek. De bedrijfsarts kan dan in overleg met de Arboprofessionals en P&O
-                        door MyHealth een nader onderzoek laten doen naar de (gewijzigde)
+                        door Gezondd een nader onderzoek laten doen naar de (gewijzigde)
                         arbeidsomstandigheden en welke gevolgen dit heeft voor het aan te passen
-                        beleid. Arboprofessionals kunnen MyHealth ook proactief benaderen, wanneer
+                        beleid. Arboprofessionals kunnen Gezondd ook proactief benaderen, wanneer
                         er vragen bestaan rond de arbeidsomstandigheden en het waar nodig
                         actualiseren van dit beleid.{" "}
                     </p>
                     <p className="mt-6">
-                        MyHealth geeft tevens (In-Company) trainingen voor management,
+                        Gezondd geeft tevens (In-Company) trainingen voor management,
                         bedrijfsartsen, Arbo professionals, casemanagers en P&O professionals op het
                         gebied van arbeid en gezondheid in samenwerking met IKA Academy.
                     </p>

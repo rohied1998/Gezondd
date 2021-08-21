@@ -10,6 +10,8 @@ module.exports = {
             backgroundImage: (theme) => ({
                 home: "url('/home.png')",
                 doktor: "url('/doktor.png')",
+                teddy: "url('/teddy.png')",
+                ika: "url('/ika.png')",
             }),
             colors: {
                 "green-pastel": "#82C074",
