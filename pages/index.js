@@ -90,7 +90,7 @@ export default function Home() {
                         onnodig tijdverlies rond verzuim en bepaling van arbeidsongeschiktheid
                         a.g.v. letselschade van uzelf of uw medewerker kunt voorkomen.
                     </li>
-                    <li className="mb-4">
+                    <li>
                         U te begeleiden bij diversiteitsvraagstukken op het gebied van verzuim,
                         ziekte, reïntegratie, gezondheidsbevordering & preventie of dreigende
                         arbeidsongeschiktheid. MyHealth beschikt over specifieke deskundigheid op

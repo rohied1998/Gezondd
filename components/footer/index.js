@@ -40,7 +40,9 @@ export class Footer extends React.Component {
                         </div>
 
                         <div className="p-5 w-48 justify-self-center mt-16">
-                            <p className="uppercase text-gray-800 font-bold text-base mb-2">Links</p>
+                            <p className="uppercase text-gray-800 font-bold text-base mb-2">
+                                Links
+                            </p>
                             <p className="text-sm">Klachten regeling en Privacy reglement</p>
                         </div>
                     </div>
@@ -50,10 +52,16 @@ export class Footer extends React.Component {
                         </p>
                     </div>
                 </div>
-                <div className="fixed z-10 h-26 w-8 bottom-0 right-0 bg-gray-300">
-                    <img src="linkedin.png" className=""  alt="linkedin" />
-                    <img src="instagram.png" className="" alt="instagram" />
-                    <img src="twitter.png" className="" alt="twitter" />
+                <div className="fixed z-10 h-26 w-8 bottom-0 right-0 bg-gray-300 bg-opacity-50 rounded">
+                    <a href="https://www.linkedin.com/">
+                        <img src="linkedin.png" className="" alt="linkedin" />
+                    </a>
+                    <a href="https://www.instagram.com/">
+                        <img src="instagram.png" className="p-1" alt="instagram" />
+                    </a>
+                    <a href="https://www.twitter.com/">
+                        <img src="twitter.png" className="" alt="twitter" />
+                    </a>
                 </div>
             </footer>
         );

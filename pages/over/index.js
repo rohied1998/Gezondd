@@ -88,20 +88,20 @@ export default function Over() {
                 <div className="mx-96">
                     <p className="text-3xl">Landelijke dienstverlening</p>
                     <p className="my-6">Gezondd werkt vanuit drie vaste locaties:</p>
-                    <div className="grid grid-cols-3 gap-14 mt-12 text-2xl">
+                    <div className="grid grid-cols-3 gap-20 mt-12 text-2xl">
                         <div className="relative bg-blue-aqua pt-8 rounded-2xl">
-                            <div className="bg-white w-full h-full text-center font-bold text-blue-aqua rounded-2xl p-16 z-10">
-                                Rotterdam
+                            <div className="bg-white w-full h-full text-center rounded-2xl p-8 z-10 drop-shadow-lg px-24 py-16">
+                                <p className="font-bold text-blue-aqua">Rotterdam</p>
                             </div>
                         </div>
                         <div className="relative bg-blue-aqua pt-8 rounded-2xl">
-                            <div className="bg-white w-full h-full text-center font-bold text-blue-aqua rounded-2xl p-16 z-10">
-                                Hilversum
+                            <div className="bg-white w-full h-full text-center rounded-2xl p-8 z-10 drop-shadow-lg px-24 py-16">
+                                <p className="font-bold text-blue-aqua">Hilversum</p>
                             </div>
                         </div>
-                        <div className="relative bg-blue-aqua pt-8 rounded-2xl">
-                            <div className="bg-white w-full h-full text-center font-bold text-blue-aqua rounded-2xl p-16 z-10">
-                                Den Haag
+                        <div className="relative bg-blue-aqua pt-8 rounded-2xl w-full h-full">
+                            <div className="bg-white w-full h-full text-center rounded-2xl p-8 z-10 drop-shadow-lg px-24 py-16">
+                                <p className="font-bold text-blue-aqua">Den Haag</p>
                             </div>
                         </div>
                     </div>
