@@ -20,19 +20,21 @@ export default function Zelfstandige() {
             </Head>
 
             <Nav background="fixed w-screen z-10 bg-white" />
-            <section className="flex flex-col tracking-widest">
-                <Fade>
-                    <div>
-                        <p className="text-2xl mt-7 mx-52 leading-normal">
+            <Fade>
+                <section className="flex flex-col items-end flex-1 w-full h-full">
+                    <div className="bg-doktor bg-no-repeat bg-cover bg-center mt-7 h-3/5">
+                        <p className="text-2xl text-white font-bold text-left my-52 mx-72 tracking-widest ">
                             Als werknemer ben ik zelf verantwoordelijk voor mijn gezondheid, herstel
                             en duurzame inzetbaarheid. Een cruciaal aspect van eigen
                             verantwoordelijkheid nemen is tijdig medische expertise inschakelen om
                             samen met mijn werkgever en bedrijfsarts tot een voor mij passend
                             herstel- en gezondheidsplan te komen. Daarnaast zet ik mij proactief in
-                            om de doelstellingen van mijn gezondheidsplan te realiseren.
+                            om de doelstellingen van mijn gezondheidsplan te realiseren.{" "}
                         </p>
                     </div>
-                </Fade>
+                </section>
+            </Fade>
+            <section className="flex flex-col tracking-widest">
                 <div className="mx-64  text-gray">
                     <Fade>
                         <p className="mt-28  text-gray">
@@ -48,7 +50,6 @@ export default function Zelfstandige() {
                         <p className="text-3xl mt-24  text-gray">
                             Ziek door het werk? Beroepsziekte?
                         </p>
-
                         <p className="mt-6  text-gray">
                             Wanneer er klachten zijn, die misschien door het werk veroorzaakt
                             worden, is het verstandig om dit uit te laten zoeken door de

@@ -35,9 +35,15 @@ export class Footer extends React.Component {
                                 <p className="uppercase text-gray-800 font-bold text-base mb-2">
                                     Vestigingen
                                 </p>
-                                <p className="text-sm">Amsterdam</p>
-                                <p className="text-sm">Rotterdam</p>
-                                <p className="text-sm">Den Haag</p>
+                                <a
+                                    href="../../pages/amsterdam-contact/"
+                                    className="hover:text-white"
+                                >
+                                    <p className="text-sm">Amsterdam</p>
+                                </a>
+                                <a href="../../pages/contact/" className="hover:text-white">
+                                    <p className="text-sm">Den Haag</p>
+                                </a>
                             </div>
 
                             <div className="p-5 w-48 justify-self-center mt-16">

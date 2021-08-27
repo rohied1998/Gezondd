@@ -20,18 +20,20 @@ export default function Casemanager() {
             </Head>
 
             <Nav background="fixed w-screen z-10 bg-white" />
-            <section className="flex flex-col tracking-widest">
-                <div>
-                    <Fade>
-                        <p className="text-2xl mt-7 mx-52 leading-normal">
+            <Fade>
+                <section className="flex flex-col items-end flex-1 w-full h-full">
+                    <div className="bg-doktor bg-no-repeat bg-cover bg-center mt-7 h-3/5">
+                        <p className="text-2xl text-white font-bold text-left my-52 mx-72 tracking-widest ">
                             Als casemanager ben ik een belangrijke spin in het web, wanneer een
                             medewerker ziek wordt en verzuimt. Vanuit mijn rol zie ik erop toe dat
                             de noodzakelijke activiteiten rond het verzuim tijdig en soepel worden
                             begeleid, waarbij ik namens de werkgever een regiefunctie heb in het
                             contact tussen werknemer, P&O, bedrijfsarts of arbodienst.
                         </p>
-                    </Fade>
-                </div>
+                    </div>
+                </section>
+            </Fade>
+            <section className="flex flex-col tracking-widest">
                 <div className="mx-64">
                     <Fade>
                         <p className="mt-28">

@@ -20,10 +20,10 @@ export default function Werkgever() {
             </Head>
 
             <Nav className="fixed w-screen z-10 bg-white" />
-            <section className="flex flex-col tracking-widest">
-                <div>
-                    <Fade>
-                        <p className="text-2xl mt-32 mx-52 leading-normal">
+            <section className="flex flex-col items-end flex-1 w-full h-full">
+                <Fade>
+                    <div className="bg-doktor bg-no-repeat bg-cover bg-center mt-7 h-3/5">
+                        <p className="text-2xl text-white font-bold text-left my-52 mx-72 tracking-widest ">
                             Gezondd ondersteunt organisaties en bedrijven die onderschrijven dat het
                             succes van de eigen organisatie in kritische mate wordt bepaald door de
                             gezondheid en duurzame inzetbaarheid van hun medewerkers. Deze
@@ -34,9 +34,10 @@ export default function Werkgever() {
                             ondersteunen deze werkgevers hun medewerkers met de daarbij behorende
                             instrumenten, teneinde dit doel te bereiken.
                         </p>
-                    </Fade>
-                </div>
-
+                    </div>
+                </Fade>
+            </section>
+            <section className="flex flex-col tracking-widest">
                 <div className="mx-64">
                     <Fade>
                         <p className="mt-28 text-lg">
@@ -50,6 +51,8 @@ export default function Werkgever() {
                             kunnen werkgevers begeleiden bij hun beleidsvorming én begeleiden op
                             verzoek van de werkgever tevens individuele werknemers.
                         </p>
+                    </Fade>
+                    <Fade>
                         <p className="mt-6 text-lg">Gezondd ondersteunt werkgevers o.a. bij:</p>
                         <ul className="list-disc mx-6 text-lg">
                             <li>
@@ -198,7 +201,9 @@ export default function Werkgever() {
                     </Fade>
                     <Fade>
                         <p className="text-3xl mt-24">Duurzame inzetbaarheid</p>
-                        <p className="my-12">
+                    </Fade>
+                    <p className="my-12">
+                        <Fade>
                             <p className="italic mb-12 text-lg">
                                 Op weg naar duurzame inzetbaarheid
                             </p>
@@ -213,9 +218,10 @@ export default function Werkgever() {
                                 werknemers, die ervoor zorgen dat ze fit blijven voor het steeds
                                 sneller veranderende werk, zijn op weg naar duurzame inzetbaarheid.
                             </p>
+                        </Fade>
+                        <Fade>
                             <p className="italic my-4 text-lg">Zelf aan de slag</p>
                             <p className="text-lg">
-                                {" "}
                                 Gezondd kan u helpen bij de volgende aspecten:
                             </p>
                             <ul className="list-disc mx-6 text-lg">
@@ -241,8 +247,8 @@ export default function Werkgever() {
                                     kunnen dit voorkomen.
                                 </li>
                             </ul>
-                        </p>
-                    </Fade>
+                        </Fade>
+                    </p>
                 </div>
 
                 <div className="grid grid-cols-2 gap-24 bg-gray-light">
@@ -293,6 +299,8 @@ export default function Werkgever() {
                             belangrijke rol, wanneer onverhoopt calamiteiten met gevaarlijke stoffen
                             hebben plaatsgevonden.
                         </p>
+                    </Fade>
+                    <Fade>
                         <p className="mt-4 text-lg">
                             Gezondd kan binnen 24 uur een team van deskundigen beschikbaar stellen
                             bij calamiteiten met gevaarlijke stoffen. Het expertteam kan de

@@ -79,6 +79,8 @@ export default function ZelfstandigeOndernemer() {
                             broodfonds? In overleg kunt u dan ook bij Gezondd terecht voor
                             beoordeling en begeleiding.
                         </p>
+                        </Fade>
+                        <Fade>
                         <p className="mt-12">
                             Indien u als zelfstandige nog niet beschikt over een AOV, dan dient u er
                             rekening mee te houden dat de overheid deze op niet te lange termijn
@@ -89,6 +91,8 @@ export default function ZelfstandigeOndernemer() {
                             een ongeval. Een AOV draagt zorg voor zekerheid, wanneer er onverhoopt
                             iets gebeurt waardoor u niet meer kunt werken.
                         </p>
+                        </Fade>
+                        <Fade>
                         <p className="my-4">
                             Met een goede AOV kunt u op het moment dat het nodig is adequate
                             zorgverlening inschakelen, zodat uw (financiële) risico’s beperkt

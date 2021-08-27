@@ -22,7 +22,7 @@ export default function Contact() {
 
             <Nav background="fixed w-screen z-10 bg-white" />
             <section className="flex flex-col tracking-widest">
-                <div className="grid grid-cols-2 mt-28 mb-36 gap-8">
+                <div className="grid grid-cols-2 mt-20 mb-36 gap-8">
                     <Fade>
                         <div className="ml-64 mt-36">
                             <p className="text-3xl">Contact gegevens</p>
@@ -30,9 +30,6 @@ export default function Contact() {
                             <p className="text-lg">Koninginnegracht 19</p>
                             <p className="text-lg">2514 AB ’s-Gravenhage</p>
                             <p className="text-lg mb-6">Tel: 085 015 0020</p>
-                            <p className="text-lg mb-6">KVK: 75655489</p>
-                            <p className="text-lg">BTW nummer: NL860354519B01</p>
-                            <p className="text-lg">Banknummer: NL02 RABO 0345 4696 90</p>
                         </div>
                         <div className="justify-self-end">
                             <iframe
