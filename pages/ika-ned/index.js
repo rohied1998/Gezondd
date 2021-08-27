@@ -12,9 +12,9 @@ export default function IkaNed() {
             <Head />
             <Nav />
             <section className="flex flex-col mx-96 tracking-widest">
-            <div className="">
-                        <img className="mx-auto mt-48" src="/ika.png"></img>
-                    </div>
+                <div className="">
+                    <img className="mx-auto mt-48" src="/ika.png"></img>
+                </div>
 
                 <p className="text-2xl my-12 leading-normal mt-32">
                     IKA Ned is een tweedelijns zorgorganisatie actief binnen de sectoren overheid,

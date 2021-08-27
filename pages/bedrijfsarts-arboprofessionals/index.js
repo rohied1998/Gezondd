@@ -46,9 +46,9 @@ export default function BedrijfsartsArboprofessional() {
                         werkplek. De bedrijfsarts kan dan in overleg met de Arboprofessionals en P&O
                         door Gezondd een nader onderzoek laten doen naar de (gewijzigde)
                         arbeidsomstandigheden en welke gevolgen dit heeft voor het aan te passen
-                        beleid. Arboprofessionals kunnen Gezondd ook proactief benaderen, wanneer
-                        er vragen bestaan rond de arbeidsomstandigheden en het waar nodig
-                        actualiseren van dit beleid.{" "}
+                        beleid. Arboprofessionals kunnen Gezondd ook proactief benaderen, wanneer er
+                        vragen bestaan rond de arbeidsomstandigheden en het waar nodig actualiseren
+                        van dit beleid.{" "}
                     </p>
                     <p className="mt-6">
                         Gezondd geeft tevens (In-Company) trainingen voor management,
