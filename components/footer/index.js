@@ -10,7 +10,7 @@ export class Footer extends React.Component {
                         <div className="grid grid-cols-4 gap-4">
                             <div className="mx-16 ml-14 mt-16">
                                 <img
-                                    src="gezondd-footer.png"
+                                    src="gezondd.png"
                                     className="w-28 h-6 ml-20"
                                     alt="Footer Gezondd"
                                 />

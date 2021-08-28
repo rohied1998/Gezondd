@@ -10,8 +10,15 @@ import Fade from "react-reveal/Fade";
 export default function IkaNed() {
     return (
         <>
-            <Head />
-            <Nav className="fixed block w-screen z-10 bg-white text-black"/>
+            <Head>
+                <title>IKA Ned</title>
+                <link rel="icon" href="/favico.png" />
+                <link
+                    href="https://fonts.googleapis.com/css?family=Varela+Round"
+                    rel="stylesheet"
+                ></link>
+            </Head>
+            <Nav className="fixed block w-screen z-10 bg-white text-black" />
             <Fade>
                 <section className="flex flex-col items-end flex-1 w-full h-full">
                     <div className="bg-doktor bg-no-repeat bg-cover bg-center mt-7 h-3/5">

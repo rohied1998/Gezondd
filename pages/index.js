@@ -28,7 +28,7 @@ export default function Home() {
             </Head>
             <Nav
                 className={
-                    scroll ? "fixed w-screen z-10 text-white" : "fixed w-screen z-10 bg-white"
+                    scroll ? "fixed text-white z-10" : "fixed bg-white z-10"
                 }
             ></Nav>
             <Fade>
@@ -48,7 +48,7 @@ export default function Home() {
                             className="bg-green-pastel px-8 py-3 rounded-3xl ml-60 tracking-wider"
                         />
                     </div>
-                    <div className="flex mx-auto mt-4">
+                    <div className="flex mx-auto mt-20">
                         <Link to="intro" spy={true} smooth={true} offset={-100} duration={500}>
                             <svg
                                 className="animate-bounce w-6 h-6 text-white mx-auto"

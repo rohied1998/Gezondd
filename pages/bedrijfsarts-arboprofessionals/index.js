@@ -10,7 +10,14 @@ import Fade from "react-reveal/Fade";
 export default function BedrijfsartsArboprofessional() {
     return (
         <>
-            <Head />
+            <Head>
+                <title>Bedrijfsarts/Arboprofessional</title>
+                <link rel="icon" href="/favico.png" />
+                <link
+                    href="https://fonts.googleapis.com/css?family=Varela+Round"
+                    rel="stylesheet"
+                ></link>
+            </Head>
             <Nav className="fixed block w-screen z-10 bg-white text-black" />
             <Fade>
                 <section className="flex flex-col items-end flex-1 w-full h-full">
