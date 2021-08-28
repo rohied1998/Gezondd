@@ -22,7 +22,7 @@ export default function Over() {
             <Fade>
                 <section className="flex flex-col items-end flex-1 w-full h-full">
                     <div className="bg-doktor bg-no-repeat bg-cover bg-center mt-7 h-3/5">
-                        <p className="text-2xl text-white font-bold text-left my-52 mx-72 tracking-widest ">
+                        <p className="text-2xl text-white font-bold text-left mt-64 mb-52 mx-72 tracking-widest ">
                             Gezondd heeft als missie om op een positieve manier een bijdrage te
                             leveren aan arbeid en gezondheid in Nederland voor werkgevers,
                             werknemers en de meer dan één miljoen zelfstandigen en ondernemers, een
@@ -143,8 +143,8 @@ export default function Over() {
                     <div className="mx-96">
                         <p className="text-3xl">Landelijke dienstverlening</p>
                         <p className="my-6">Gezondd werkt vanuit drie vaste locaties:</p>
-                        <div className="grid grid-cols-3 gap-20 mt-12 text-2xl">
-                            <div className="relative bg-blue-aqua pt-8 rounded-2xl">
+                        <div className="grid grid-cols-2 gap-40 mt-12 text-2xl">
+                            <div className="relative bg-blue-aqua pt-8 rounded-2xl w-full h-full">
                                 <a href="../../pages/amsterdam-contact/">
                                     <div className="bg-white w-full h-full text-center rounded-2xl p-8 z-10 drop-shadow-lg px-24 py-16">
                                         <p className="font-bold text-blue-aqua">Amsterdam</p>

@@ -12,7 +12,7 @@ export default function Home() {
 
     useEffect(() => {
         window.addEventListener("scroll", () => {
-            setScroll(window.scrollY < 950);
+            setScroll(window.scrollY < 1050);
         });
     }, []);
 
@@ -49,7 +49,7 @@ export default function Home() {
                         />
                     </div>
                     <div className="flex mx-auto mt-4">
-                        <Link to="intro" spy={true} smooth={true} offset={50} duration={500}>
+                        <Link to="intro" spy={true} smooth={true} offset={-100} duration={500}>
                             <svg
                                 className="animate-bounce w-6 h-6 text-white mx-auto"
                                 fill="none"

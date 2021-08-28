@@ -19,7 +19,7 @@ export default function ZelfstandigeOndernemer() {
                 ></link>
             </Head>
 
-            <Nav background="fixed w-screen z-10 bg-white" />
+            <Nav className="fixed block w-screen z-10 bg-white text-black" />
             <section className="flex flex-col items-end flex-1 w-full h-full">
                 <div className="bg-teddy bg-no-repeat bg-cover bg-center  mt-7 h-3/5">
                     <Fade>
@@ -36,7 +36,7 @@ export default function ZelfstandigeOndernemer() {
             <section className="flex flex-col tracking-widest">
                 <div className="mx-64 text-lg">
                     <Fade>
-                        <p className="my-16">
+                        <p className="mt-24">
                             Zelfstandigen of ondernemers kunnen Gezondd inschakelen voor advies bij
                             vragen over gezondheid en werk. Bij ziekte, dreigende
                             arbeidsongeschiktheid of na een ongeval, waar letselschade het gevolg
@@ -92,7 +92,7 @@ export default function ZelfstandigeOndernemer() {
                             iets gebeurt waardoor u niet meer kunt werken.
                         </p>
                         </Fade>
-                        <Fade>
+                    <Fade>
                         <p className="my-4">
                             Met een goede AOV kunt u op het moment dat het nodig is adequate
                             zorgverlening inschakelen, zodat uw (financiële) risico’s beperkt

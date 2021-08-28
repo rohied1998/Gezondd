@@ -31,7 +31,7 @@ export class Footer extends React.Component {
                                 <p className="text-sm">2514 AB s&apos;Gravenhage</p>
                             </div>
 
-                            <div className="p-5 w-48 justify-self-center mt-16">
+                            <div className="mt-6 w-48 justify-self-center mt-16">
                                 <p className="uppercase text-gray-800 font-bold text-base mb-2">
                                     Vestigingen
                                 </p>

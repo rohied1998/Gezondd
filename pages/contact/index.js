@@ -20,9 +20,9 @@ export default function Contact() {
                 ></link>
             </Head>
 
-            <Nav background="fixed w-screen z-10 bg-white" />
+            <Nav className="fixed block w-screen z-10 bg-white text-black" />
             <section className="flex flex-col tracking-widest">
-                <div className="grid grid-cols-2 mt-20 mb-36 gap-8">
+                <div className="grid grid-cols-2 mt-32 mb-36 gap-8">
                     <Fade>
                         <div className="ml-64 mt-36">
                             <p className="text-3xl">Contact gegevens</p>

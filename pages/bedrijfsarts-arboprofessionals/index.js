@@ -11,7 +11,7 @@ export default function BedrijfsartsArboprofessional() {
     return (
         <>
             <Head />
-            <Nav />
+            <Nav className="fixed block w-screen z-10 bg-white text-black" />
             <Fade>
                 <section className="flex flex-col items-end flex-1 w-full h-full">
                     <div className="bg-doktor bg-no-repeat bg-cover bg-center mt-7 h-3/5">

@@ -11,7 +11,7 @@ export default function IkaNed() {
     return (
         <>
             <Head />
-            <Nav />
+            <Nav className="fixed block w-screen z-10 bg-white text-black"/>
             <Fade>
                 <section className="flex flex-col items-end flex-1 w-full h-full">
                     <div className="bg-doktor bg-no-repeat bg-cover bg-center mt-7 h-3/5">
@@ -30,9 +30,9 @@ export default function IkaNed() {
                     </div>
                 </section>
             </Fade>
-            <section className="flex flex-col mx-96 mt-16 tracking-widest">
+            <section className="flex flex-col mx-96 mt-24 tracking-widest">
                 <div>
-                    <ul className="list-disc mx-6">
+                    <ul className="list-disc mx-6 text-lg">
                         <Fade>
                             <li>
                                 Advies bij reïntegratie, bij chronische aandoeningen zoals MS, of
@@ -58,7 +58,7 @@ export default function IkaNed() {
                         </Fade>
                     </ul>
                     <Fade>
-                        <p className="text-lg my-12">
+                        <p className="text-lg mt-12">
                             Gezondd werkt als arbodienst intensief samen met haar zusterorganisatie
                             IKA Ned voor die cliënten, die specialistische medische kennis vereisen
                             op het snijvlak van arbeid en zorg, voor diagnostiek bij beroepsziekten,
@@ -67,8 +67,8 @@ export default function IkaNed() {
                     </Fade>
                 </div>
                 <Fade>
-                    <p className="text-3xl">IKA Academy</p>
-                    <p className="my-12">
+                    <p className="text-3xl mt-24">IKA Academy</p>
+                    <p className="mt-12">
                         IKA Academy biedt excellente educatie door top docenten, waarbij u met
                         plezier leergangen kunt volgen én uw accreditatie punten kunt behalen. IKA
                         Academy organiseert hooggekwalificeerde nationale en internationale
@@ -76,7 +76,7 @@ export default function IkaNed() {
                         verzekeringsartsen en andere Arbo professionals, maar ook voor
                         leidinggevenden, HR-profs en management.
                     </p>
-                    <p className="my-12">
+                    <p className="mt-12">
                         Huidige research creëert nieuw wetenschappelijk bewijs. Het bewijs wordt
                         verwerkt en toegepast in een continue stroom van nieuwe standaarden en
                         professionele richtlijnen. Dat is het begin van onze opleiding! We leveren u
@@ -84,7 +84,7 @@ export default function IkaNed() {
                         praktische implicaties. Wetenschappelijke kennis moet vertaald worden naar
                         de praktijk.
                     </p>
-                    <p className="my-12">
+                    <p className="mt-12">
                         De thema’s waarbinnen de verschillende modules vallen, zijn voorgedragen
                         door de praktiserende bedrijfsartsen binnen het IKA-netwerk. De keuze voor
                         die thema’s heeft alles te maken met het feit dat hier de kracht ligt van
@@ -92,13 +92,13 @@ export default function IkaNed() {
                     </p>
                 </Fade>
                 <Fade>
-                    <p className="text-3xl">Het educatieve model</p>
-                    <p className="my-12">
+                    <p className="text-3xl mt-24">Het educatieve model</p>
+                    <p className="mt-12">
                         De didactische benadering van IKA Academy is gebaseerd op leermethoden die
                         passen bij de huidige ontwikkelingen in het vak. De volgende principes
                         vormen de rode draad:
                     </p>
-                    <ul className="list-disc mx-6">
+                    <ul className="list-disc mx-6 mt-12">
                         <li>De student staat centraal </li>
                         <li>Gerenommeerde subject matter experts uit het vak als docent </li>
                         <li>Diversiteit in leermethodes en leerstijlen</li>
@@ -106,7 +106,7 @@ export default function IkaNed() {
                         <li>Actief kennis en ervaring uitwisselen in kleine groepen</li>
                         <li>Een prettige stimulerende sfeer</li>
                     </ul>
-                    <p className="my-12">
+                    <p className="mt-12">
                         Gezondd werkt samen met IKA Academy voor het ontwikkelen en geven van
                         (in-Company) trainingen en opleidingen. De vraag van de opdrachtgever staat
                         telkens centraal bij de invulling van het trainingsprogramma en

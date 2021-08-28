@@ -19,7 +19,7 @@ export default function Casemanager() {
                 ></link>
             </Head>
 
-            <Nav background="fixed w-screen z-10 bg-white" />
+            <Nav className="fixed block w-screen z-10 bg-white text-black" />
             <Fade>
                 <section className="flex flex-col items-end flex-1 w-full h-full">
                     <div className="bg-doktor bg-no-repeat bg-cover bg-center mt-7 h-3/5">
@@ -33,10 +33,10 @@ export default function Casemanager() {
                     </div>
                 </section>
             </Fade>
-            <section className="flex flex-col tracking-widest">
+            <section className="flex flex-col tracking-widest my-24">
                 <div className="mx-64">
                     <Fade>
-                        <p className="mt-28">
+                        <p className="">
                             Casemanagers, die namens de wekgever het proces rond het verzuim van een
                             medewerker begeleiden, kunnen Gezondd inschakelen als bedrijfsarts en/of
                             expert op het gebied van arbodienstverlening.

@@ -19,7 +19,7 @@ export default function Zelfstandige() {
                 ></link>
             </Head>
 
-            <Nav background="fixed w-screen z-10 bg-white" />
+            <Nav className="fixed block w-screen z-10 bg-white text-black" />
             <Fade>
                 <section className="flex flex-col items-end flex-1 w-full h-full">
                     <div className="bg-doktor bg-no-repeat bg-cover bg-center mt-7 h-3/5">
@@ -37,7 +37,7 @@ export default function Zelfstandige() {
             <section className="flex flex-col tracking-widest">
                 <div className="mx-64  text-gray">
                     <Fade>
-                        <p className="mt-28  text-gray">
+                        <p className="mt-28 text-lg  text-gray">
                             Een werknemer heeft een grote verantwoordelijkheid als het gaat om het
                             behouden van de eigen gezondheid en inzetbaarheid. Het tijdig aangeven
                             dat er ondersteuning nodig is om dit doel te bereiken, hoort ook bij
@@ -47,10 +47,10 @@ export default function Zelfstandige() {
                         </p>
                     </Fade>
                     <Fade>
-                        <p className="text-3xl mt-24  text-gray">
+                        <p className="text-3xl mt-24 text-lg text-gray">
                             Ziek door het werk? Beroepsziekte?
                         </p>
-                        <p className="mt-6  text-gray">
+                        <p className="mt-6 text-lg text-gray">
                             Wanneer er klachten zijn, die misschien door het werk veroorzaakt
                             worden, is het verstandig om dit uit te laten zoeken door de
                             bedrijfsartsen (BIG geregistreerd) van Gezondd. Wanneer en sprake is van

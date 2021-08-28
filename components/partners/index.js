@@ -15,7 +15,7 @@ export class Partners extends React.Component {
                         <img
                             src="bedrijfsartsopmaat.png"
                             alt="Bedrijfs arts op maat"
-                            className="w-36 mt-3"
+                            className="w-36 mt-9"
                         />
                         </a>
                         <a href="http://oudegrachtgroep.nl/CMS/Home/show.do?ctx=764482,766810">
