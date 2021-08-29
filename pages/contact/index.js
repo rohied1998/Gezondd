@@ -26,7 +26,7 @@ export default function Contact() {
                     <Fade>
                         <div className="ml-64 mt-36">
                             <p className="text-3xl">Contact gegevens</p>
-                            <p className="mt-12 text-lg">Gezondd BV</p>
+                            <p className="mt-6 text-lg">Gezondd BV</p>
                             <p className="text-lg">Koninginnegracht 19</p>
                             <p className="text-lg">2514 AB ’s-Gravenhage</p>
                             <p className="text-lg mb-6">Tel: 085 015 0020</p>
@@ -99,7 +99,7 @@ export default function Contact() {
                             </div>
                             <Button
                                 label="Verzenden"
-                                className="bg-blue-aqua h-14 w-52 my-12 rounded-full text-white drop-shadow-lg tracking-widest"
+                                className="bg-blue-aqua h-14 w-52 my-6 rounded-full text-white drop-shadow-lg tracking-widest"
                             />
                         </div>
                     </form>

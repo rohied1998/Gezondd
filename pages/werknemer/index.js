@@ -37,7 +37,7 @@ export default function Zelfstandige() {
             <section className="flex flex-col tracking-widest">
                 <div className="mx-64  text-gray">
                     <Fade>
-                        <p className="mt-28 text-lg  text-gray">
+                        <p className="mt-16 text-lg  text-gray">
                             Een werknemer heeft een grote verantwoordelijkheid als het gaat om het
                             behouden van de eigen gezondheid en inzetbaarheid. Het tijdig aangeven
                             dat er ondersteuning nodig is om dit doel te bereiken, hoort ook bij
@@ -47,7 +47,7 @@ export default function Zelfstandige() {
                         </p>
                     </Fade>
                     <Fade>
-                        <p className="text-3xl mt-24 text-lg text-gray">
+                        <p className="text-3xl mt-16 text-lg text-gray">
                             Ziek door het werk? Beroepsziekte?
                         </p>
                         <p className="mt-6 text-lg text-gray">
@@ -60,8 +60,8 @@ export default function Zelfstandige() {
                         </p>
                     </Fade>
                     <Fade>
-                        <p className="text-3xl mt-24  text-gray">Second opinion</p>
-                        <p className="my-12  text-gray">
+                        <p className="text-3xl mt-16  text-gray">Second opinion</p>
+                        <p className="my-6 text-gray">
                             Komt de eigen bedrijfsarts er niet uit? Indien nodig, is het mogelijk
                             dat een werknemer bij Gezondd een second opinion aanvraagt als
                             onafhankelijk oordeel naast het oordeel van de eigen bedrijfsarts. Een
@@ -70,8 +70,8 @@ export default function Zelfstandige() {
                         </p>
                     </Fade>
                     <Fade>
-                        <p className="text-3xl mt-24  text-gray">Blessure consult</p>
-                        <p className="my-12  text-gray">
+                        <p className="text-3xl mt-16  text-gray">Blessure consult</p>
+                        <p className="my-6  text-gray">
                             Als werknemer kunt bij een bedrijfsarts terecht van Gezondd voor een
                             deskundige diagnose van klachten, die u beperken in uw werkzaamheden.
                             Alle aspecten worden daarbij meegenomen. Na de diagnose adviseert de

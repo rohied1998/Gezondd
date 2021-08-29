@@ -117,7 +117,7 @@ export default function Over() {
                             </Fade>
                         </ul>
                         <Fade>
-                            <p className="text-lg my-12">
+                            <p className="text-lg mt-6">
                                 Bij Gezondd werken bedrijfsartsen, verzekeringsartsen,
                                 (interculturele) reïntegratie-adviseurs, arbeidshygiënisten,
                                 veiligheidsdeskundigen en arbeids- en organisatiedeskundigen.
@@ -128,8 +128,8 @@ export default function Over() {
                         </Fade>
                     </div>
                     <Fade>
-                        <p className="text-3xl ">Intercultureel</p>
-                        <p className="text-lg mt-12 mb-24">
+                        <p className="text-3xl mt-16">Intercultureel</p>
+                        <p className="text-lg mt-6 mb-16">
                             Gezondd beschikt over medewerkers met een niet-westerse achtergrond.
                             Daarom kan Gezondd bij uitstek werknemers, zelfstandige ondernemers en
                             letselschadeslachtoffers met een niet-westerse culturele achtergrond
@@ -142,8 +142,8 @@ export default function Over() {
                 <section className="flex flex-1 bg-gray-100 py-24 tracking-widest">
                     <div className="mx-96">
                         <p className="text-3xl">Landelijke dienstverlening</p>
-                        <p className="my-6">Gezondd werkt vanuit drie vaste locaties:</p>
-                        <div className="grid grid-cols-2 gap-40 mt-12 text-2xl">
+                        <p className="mt-6">Gezondd werkt vanuit drie vaste locaties:</p>
+                        <div className="grid grid-cols-2 gap-40 mt-6 text-2xl">
                             <div className="relative bg-blue-aqua pt-8 rounded-2xl w-full h-full">
                                 <a href="../../pages/amsterdam-contact/">
                                     <div className="bg-white w-full h-full text-center rounded-2xl p-8 z-10 drop-shadow-lg px-24 py-16">

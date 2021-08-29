@@ -36,7 +36,7 @@ export default function ZelfstandigeOndernemer() {
             <section className="flex flex-col tracking-widest">
                 <div className="mx-64 text-lg">
                     <Fade>
-                        <p className="mt-24">
+                        <p className="mt-16">
                             Zelfstandigen of ondernemers kunnen Gezondd inschakelen voor advies bij
                             vragen over gezondheid en werk. Bij ziekte, dreigende
                             arbeidsongeschiktheid of na een ongeval, waar letselschade het gevolg
@@ -47,7 +47,7 @@ export default function ZelfstandigeOndernemer() {
                 </div>
                 <div className="mx-64 text-lg">
                     <Fade>
-                        <p className="text-3xl mt-24">Arbeidsongeschikt door ziekte?</p>
+                        <p className="text-3xl mt-16">Arbeidsongeschikt door ziekte?</p>
 
                         <p className="mt-6">
                             Gezondd helpt een ondernemer bij zijn of haar re-integratie, als hij of
@@ -59,8 +59,8 @@ export default function ZelfstandigeOndernemer() {
                         </p>
                     </Fade>
                     <Fade>
-                        <p className="text-3xl mt-24">Letselschade?</p>
-                        <p className="my-12">
+                        <p className="text-3xl mt-16">Letselschade?</p>
+                        <p className="my-6">
                             Heft u letselschade opgelopen, bijvoorbeeld als gevolg van een
                             verkeersongeval of een medische fout, buiten uw eigen schuld? In de
                             meeste verkeersongevallen vergoedt de verzekeraar van de tegenpartij, of
@@ -72,8 +72,8 @@ export default function ZelfstandigeOndernemer() {
                         </p>
                     </Fade>
                     <Fade>
-                        <p className="text-3xl mt-24">Arbeidsongeschiktheidsverzekering?</p>
-                        <p className="my-12">
+                        <p className="text-3xl mt-16">Arbeidsongeschiktheidsverzekering?</p>
+                        <p className="mt-6">
                             Heeft u als ondernemer of zelfstandige een
                             Arbeidsongeschiktheidsverzekering (AOV) of bent u lid van een
                             broodfonds? In overleg kunt u dan ook bij Gezondd terecht voor
@@ -81,7 +81,7 @@ export default function ZelfstandigeOndernemer() {
                         </p>
                         </Fade>
                         <Fade>
-                        <p className="mt-12">
+                        <p className="mt-6">
                             Indien u als zelfstandige nog niet beschikt over een AOV, dan dient u er
                             rekening mee te houden dat de overheid deze op niet te lange termijn
                             verplicht zal stellen. Gezondd adviseert haar klanten, die werkzaam zijn

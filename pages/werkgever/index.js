@@ -53,7 +53,7 @@ export default function Werkgever() {
                         </p>
                     </Fade>
                     <Fade>
-                        <p className="mt-6 text-lg">Gezondd ondersteunt werkgevers o.a. bij:</p>
+                        <p className="mt-4 text-lg">Gezondd ondersteunt werkgevers o.a. bij:</p>
                         <ul className="list-disc mx-6 text-lg">
                             <li>
                                 het beperken van verzuim en het versnellen van re-integratie van
@@ -75,7 +75,7 @@ export default function Werkgever() {
                                 te leggen voor duurzame inzetbaarheid van uw medewerkers
                             </li>
                         </ul>
-                        <p className="mt-6 text-lg">
+                        <p className="mt-4 text-lg">
                             Gezondd bedrijfsartsen, verzuim- en reïntegratie-experts, klinisch
                             arbeidsgeneeskundigen, medische adviseurs en diversiteitsexperts
                             begeleiden op uw verzoek ook individuele medewerkers bij een spoedig
@@ -83,8 +83,8 @@ export default function Werkgever() {
                         </p>
                     </Fade>
                     <Fade>
-                        <p className="text-3xl mt-24">Verzuimbegeleiding met visie</p>
-                        <p className="mt-12 text-lg">
+                        <p className="text-3xl mt-16">Verzuimbegeleiding met visie</p>
+                        <p className="mt-6 text-lg">
                             Gezondd biedt op verzoek van de werkgever verzuimbegeleiding door inzet
                             van een reïntegratie-expert of bedrijfsarts. Wij doen dat met de
                             overtuiging dat voorkomen beter is dan genezen. Bij elke werknemer, die
@@ -96,8 +96,8 @@ export default function Werkgever() {
                         </p>
                     </Fade>
                     <Fade>
-                        <p className="text-3xl mt-24">Reïntegratie zonder stagnatie</p>
-                        <p className="mt-12 text-lg">
+                        <p className="text-3xl mt-16">Reïntegratie zonder stagnatie</p>
+                        <p className="mt-6 text-lg">
                             Stagneert de reïntegratie om medische redenen, of wellicht vanwege niet
                             medische oorzaken? Gezondd werkt samen met experts, werkzaam vanuit
                             verschillende invalshoeken, om dergelijke problemen op te lossen. Zijn
@@ -109,8 +109,8 @@ export default function Werkgever() {
                         </p>
                     </Fade>
                     <Fade>
-                        <p className="text-3xl mt-24">Verzuim en personeelsbeleid</p>
-                        <p className="mt-12 text-lg">
+                        <p className="text-3xl mt-16">Verzuim en personeelsbeleid</p>
+                        <p className="mt-6 text-lg">
                             Verzuim hangt samen met het personeelsbeleid in een bedrijf en kan voor
                             een belangrijk deel worden voorkomen. Hierbij kan gedacht worden aan:
                         </p>
@@ -129,7 +129,7 @@ export default function Werkgever() {
                         </ul>
                     </Fade>
                     <Fade>
-                        <p className="mt-12 text-lg">
+                        <p className="mt-4 text-lg">
                             Een goed ziekteverzuimbeleidsplan bestaat uit drie onderdelen:
                         </p>
                         <ul className="list-disc mx-6 text-lg">
@@ -145,8 +145,8 @@ export default function Werkgever() {
                         </ul>
                     </Fade>
                     <Fade>
-                        <p className="text-3xl mt-24">Arbobeleid</p>
-                        <p className="mt-12 text-lg">
+                        <p className="text-3xl mt-16">Arbobeleid</p>
+                        <p className="mt-6 text-lg">
                             Arbobeleid is het beleid dat een werkgever binnen zijn bedrijf voert op
                             het gebied van arbeidsomstandigheden. Een goed arbobeleid beperkt de
                             gezondheidsrisico’s in het bedrijf, vermindert het ziekteverzuim en
@@ -200,9 +200,9 @@ export default function Werkgever() {
                         </ul>
                     </Fade>
                     <Fade>
-                        <p className="text-3xl mt-24">Duurzame inzetbaarheid</p>
+                        <p className="text-3xl mt-16">Duurzame inzetbaarheid</p>
                     </Fade>
-                    <p className="mt-12">
+                    <p className="mt-6">
                         <Fade>
                             <p className="italic text-lg">Op weg naar duurzame inzetbaarheid</p>
                             <p className="mt-4">
@@ -218,7 +218,7 @@ export default function Werkgever() {
                             </p>
                         </Fade>
                         <Fade>
-                            <p className="italic mt-12 text-lg">Zelf aan de slag</p>
+                            <p className="italic mt-6 text-lg">Zelf aan de slag</p>
                             <p className="text-lg mt-4">
                                 Gezondd kan u helpen bij de volgende aspecten:
                             </p>
@@ -249,11 +249,11 @@ export default function Werkgever() {
                     </p>
                 </div>
 
-                <div className="grid grid-cols-2 gap-24 bg-gray-light mt-24">
+                <div className="grid grid-cols-2 gap-24 bg-gray-light mt-16">
                     <Fade>
                         <div className="ml-64 tracking-widest leading-relaxed">
                             <p className="text-3xl mt-16">Diversiteit</p>
-                            <p className="mt-12 text-lg">
+                            <p className="mt-6 text-lg">
                                 Gezondd beschikt over re-integratie-adviseurs, die werkgevers en
                                 werknemers ondersteunen met arbeidsdeskundig advies en
                                 herstelcoaching t.b.v. medewerkers of letselschadeslachtoffers met
@@ -281,8 +281,8 @@ export default function Werkgever() {
 
                 <div className="mx-64 mb-20">
                     <Fade>
-                        <p className="text-3xl  mt-24">Duurzame inzetbaarheid</p>
-                        <p className="italic mt-12 text-lg">Toxic Incident Counseling</p>
+                        <p className="text-3xl  mt-16">Duurzame inzetbaarheid</p>
+                        <p className="italic mt-6 text-lg">Toxic Incident Counseling</p>
                         <p className="text-lg mt-4">
                             Het is voor bedrijven met het oog op de gezondheid van hun werknemers
                             van groot belang calamiteiten met gevaarlijke stoffen te voorkomen, of
@@ -310,7 +310,7 @@ export default function Werkgever() {
                         </p>
                     </Fade>
                     <Fade>
-                        <p className="italic text-lg  mt-12">De Werkplek poli</p>
+                        <p className="italic text-lg  mt-6">De Werkplek poli</p>
                         <p className="mt-4 text-lg">
                             De ‘Werkplek-poli’ is een dienst die klachten van mensen over het
                             werkklimaat op de werkplekken helpt op te lossen. Gezondd onderzoekt
@@ -343,8 +343,8 @@ export default function Werkgever() {
                         </p>
                     </Fade>
                     <Fade>
-                        <p className="text-3xl mt-24">Keuringen en onderzoek</p>
-                        <p className="italic mt-12 text-lg">Preventief Medisch onderzoek</p>
+                        <p className="text-3xl mt-16">Keuringen en onderzoek</p>
+                        <p className="italic mt-6 text-lg">Preventief Medisch onderzoek</p>
                         <p className="text-lg mt-4">
                             Het Preventief Medisch Onderzoek (PMO) geeft inzicht in de gezondheids-
                             en arbeidsgerelateerde aspecten van inzetbaarheid. Centraal staat het
@@ -353,7 +353,7 @@ export default function Werkgever() {
                             gezondheid, arbeidsgerelateerde factoren en werkvermogen helder in
                             beeld.
                         </p>
-                        <p className="italic mt-12 text-lg">
+                        <p className="italic mt-6 text-lg">
                             Overige keuringen en gericht periodiek onderzoek
                         </p>
                         <p className="text-lg mt-4">
@@ -363,7 +363,7 @@ export default function Werkgever() {
                         </p>
                     </Fade>
                     <Fade>
-                        <p className="italic mt-12 text-lg"> Rijbewijskeuring</p>
+                        <p className="italic mt-6 text-lg"> Rijbewijskeuring</p>
                         <p className="text-lg mt-4">
                             Om deel te kunnen nemen aan het gemotoriseerde verkeer in Nederland,
                             moeten rijbewijshouders ‘medisch geschikt’ zijn. Dat wil zeggen dat ze

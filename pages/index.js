@@ -26,11 +26,7 @@ export default function Home() {
                     rel="stylesheet"
                 ></link>
             </Head>
-            <Nav
-                className={
-                    scroll ? "fixed text-white z-10" : "fixed bg-white z-10"
-                }
-            ></Nav>
+            <Nav className={scroll ? "fixed text-white z-10" : "fixed bg-white z-10"}></Nav>
             <Fade>
                 <section className="flex flex-col items-end w-full h-screen bg-home bg-cover homepage">
                     <div className="text-white font-varela w-5/12 justify-end mb-48 mt-96 mr-20 ">
@@ -67,7 +63,7 @@ export default function Home() {
             </Fade>
             <section className="bg-white mx-96" id="intro">
                 <Fade>
-                    <p className="text-2xl my-24 tracking-widest text-left">
+                    <p className="text-2xl my-16 tracking-widest text-left">
                         Gezondd is dé expert als het gaat om inzet van maatwerk (medische) expertise
                         op het snijvlak van gezondheid en arbeid. Er wordt in overleg met werkgever,
                         werknemer of zelfstandig ondernemer gekeken naar mogelijkheden om:
@@ -141,7 +137,7 @@ export default function Home() {
 
             <section>
                 <Fade>
-                    <div className="rounded-md bg-gray-50 p-20 my-28 w-full flex">
+                    <div className="rounded-md bg-gray-50 p-20 my-16 w-full flex">
                         <p className="ml-10 mr-36 mt-4 w-7/12 tracking-wider text-lg">
                             Uw vragen op het gebied van werk en gezondheid, voor uzelf of uw
                             medewerkers, worden door Gezondd snel beantwoord door onze

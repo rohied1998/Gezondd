@@ -41,7 +41,7 @@ export default function BedrijfsartsArboprofessional() {
             <section className="flex flex-col tracking-widest">
                 <div className="mx-64">
                     <Fade>
-                        <p className="mt-28">
+                        <p className="mt-16">
                             Bedrijfsartsen kunnen Gezondd inschakelen als een bepaalde medewerker
                             een specialistische zorgvraag heeft. Gezondd kan in opdracht van de
                             werkgever diagnosticeren bij individuele casuïstiek en een

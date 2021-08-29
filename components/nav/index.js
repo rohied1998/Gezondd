@@ -1,19 +1,11 @@
 import React from "react";
 import Link from "next/link";
-import { Transition } from "@headlessui/react";
+// import { Transition } from "@headlessui/react";
 
-export class Nav {
-    const [isOpen, setIsOpen] = useState(false);
-    
-    useEffect(() => {
-        window.addEventListener("scroll", () => {
-            setScroll(window.scrollY < 1050);
-        });
-    }, []);
-    render() {   
+export function Nav() {
         return (
             <nav className={this.props.className}>
-                <div className="max-w-7xl my-4 mx-auto px-2 sm:px-6 lg:px-8 ">
+                <div className="my-4 mx-auto px-2 sm:px-6 lg:px-8 ">
                     <div className="relative flex items-center justify-between h-16">
                         <div className="absolute inset-y-0 left-0 flex items-center sm:hidden">
                             <button
@@ -183,4 +175,4 @@ export class Nav {
             </nav>
         );
     }
-}
+
