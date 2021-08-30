@@ -2,7 +2,8 @@ import React from "react";
 import Link from "next/link";
 // import { Transition } from "@headlessui/react";
 
-export function Nav() {
+export class Nav extends React.Component {
+    render() {
         return (
             <nav className={this.props.className}>
                 <div className="my-4 mx-auto px-2 sm:px-6 lg:px-8 ">
@@ -175,4 +176,4 @@ export function Nav() {
             </nav>
         );
     }
-
+}

@@ -26,14 +26,14 @@ export default function Home() {
                     rel="stylesheet"
                 ></link>
             </Head>
-            <Nav className={scroll ? "fixed text-white z-10" : "fixed bg-white z-10"}></Nav>
+            {/* <Nav className={scroll ? "fixed text-white z-10" : "fixed bg-white z-10"}></Nav> */}
             <Fade>
-                <section className="flex flex-col items-end w-full h-screen bg-home bg-cover homepage">
-                    <div className="text-white font-varela w-5/12 justify-end mb-48 mt-96 mr-20 ">
-                        <p className="text-6xl text-left">
+                <section className="flex flex-col items-end w-screen h-screen md:w-full lg:w-full h-screen bg-home bg-cover homepage">
+                    <div className="flex flex-col text-white w-screen lg:w-1/2 md:w-5/12 lg:w-5/12 justify-center lg:justify-end lg:mb-48 mt-36 lg:mt-96 lg:mr-20 ">
+                        <p className="text-4xl lg:text-6xl md:text-4xl text-center lg:text-left">
                             Ambities realiseren door optimaal presteren
                         </p>
-                        <p className="my-8 text=left w-10/12 leading-relaxed tracking-widest">
+                        <p className="my-8 text-center lg:text-left mx-12 lg:mx-0 lg:w-10/12 leading-relaxed lg:tracking-widest">
                             Gezondd ondersteunt organisaties en haar medewerkers om vitaal en
                             inzetbaar te blijven. Een goede gezondheid is immers de basis om
                             optimaal te kunnen blijven werken of te ondernemen.
@@ -41,10 +41,10 @@ export default function Home() {
                         <Button
                             link="./over/"
                             label="Over Gezondd"
-                            className="bg-green-pastel px-8 py-3 rounded-3xl ml-60 tracking-wider"
+                            className="bg-green-pastel h-12 w-48 rounded-3xl lg:ml-60 tracking-wider"
                         />
                     </div>
-                    <div className="flex mx-auto mt-20">
+                    <div className="flex mx-auto mt-32 lg:mt-12">
                         <Link to="intro" spy={true} smooth={true} offset={-100} duration={500}>
                             <svg
                                 className="animate-bounce w-6 h-6 text-white mx-auto"
@@ -61,15 +61,15 @@ export default function Home() {
                     </div>
                 </section>
             </Fade>
-            <section className="bg-white mx-96" id="intro">
+            <section className="bg-white mx-4 lg:mx-96" id="intro">
                 <Fade>
-                    <p className="text-2xl my-16 tracking-widest text-left">
+                    <p className="text-xl lg:text-2xl my-8 lg:my-16 lg:tracking-widest text-center lg:text-left">
                         Gezondd is dé expert als het gaat om inzet van maatwerk (medische) expertise
                         op het snijvlak van gezondheid en arbeid. Er wordt in overleg met werkgever,
                         werknemer of zelfstandig ondernemer gekeken naar mogelijkheden om:
                     </p>
                 </Fade>
-                <ul className="list-disc mx-6 text-lg">
+                <ul className="list-disc mx-6  text-sm lg:text-lg">
                     <Fade>
                         <li className="mb-4">
                             Oorzaken van verzuim goed in beeld te krijgen en door inzet van onze
@@ -137,8 +137,8 @@ export default function Home() {
 
             <section>
                 <Fade>
-                    <div className="rounded-md bg-gray-50 p-20 my-16 w-full flex">
-                        <p className="ml-10 mr-36 mt-4 w-7/12 tracking-wider text-lg">
+                    <div className="rounded-md bg-gray-50 lg:p-20 py-16 text-center lg:text-left my-16 lg:my-16 w-full flex flex-col lg:flex-row">
+                        <p className=" lg:ml-10 lg:mr-36 lg:mt-4 lg:w-7/12 lg:tracking-wider mx-4 text-lg lg:text-lg">
                             Uw vragen op het gebied van werk en gezondheid, voor uzelf of uw
                             medewerkers, worden door Gezondd snel beantwoord door onze
                             bedrijfsartsen, verzuim- en reïntegratie experts, klinisch
@@ -148,7 +148,7 @@ export default function Home() {
                         <Button
                             link="./contact/"
                             label="Voor meer vragen"
-                            className="bg-blue-aqua h-16 w-80 my-8 mx-20 rounded-full font-bold text-white drop-shadow-lg"
+                            className="bg-blue-aqua h-12 w-40 lg:h-16 lg:w-80 mt-16 lg:my-8 lg:mx-20 rounded-full font-bold text-white drop-shadow-lg"
                         />
                     </div>
                 </Fade>

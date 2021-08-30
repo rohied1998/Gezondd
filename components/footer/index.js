@@ -6,20 +6,20 @@ export class Footer extends React.Component {
         return (
             <footer>
                 <Fade>
-                    <div className="min-w-full bg-gray-100 tracking-widest">
-                        <div className="grid grid-cols-4 gap-4">
-                            <div className="mx-16 ml-14 mt-16">
+                    <div className="w-screen lg:min-w-screen md:min-w-screen bg-gray-100 lg:tracking-widest">
+                        <div className="flex flex-col lg:grid lg:grid-cols-4 gap-4">
+                            <div className="mx-auto lg:mx-16 lg:ml-14 lg:mt-16">
                                 <img
                                     src="gezondd.png"
-                                    className="w-28 h-6 ml-20"
+                                    className="w-3/5 ml-20 mt-6 lg:my-auto"
                                     alt="Footer Gezondd"
                                 />
-                                <p className="mt-6 h-40 w-40 text-center ml-16 font-medium tracking-wide">
+                                <p className="mt-6 lg:h-40 lg:w-40 text-center mx-auto text-lg lg:tracking-wide">
                                     Ambities realiseren door optimaal presteren
                                 </p>
                             </div>
 
-                            <div className="m-5 justify-self-center mt-20">
+                            <div className="ml-5 justify-self-center mt-6 lg:mt-20">
                                 <div>
                                     <p className="uppercase text-gray-800 font-bold text-base mb-2">
                                         Contact
@@ -31,7 +31,7 @@ export class Footer extends React.Component {
                                 <p className="text-sm">2514 AB s&apos;Gravenhage</p>
                             </div>
 
-                            <div className="mt-6 w-48 justify-self-center mt-16">
+                            <div className="ml-6 w-48 justify-self-center mt-6">
                                 <p className="uppercase text-gray-800 font-bold text-base mb-2">
                                     Vestigingen
                                 </p>
@@ -46,7 +46,7 @@ export class Footer extends React.Component {
                                 </a>
                             </div>
 
-                            <div className="p-5 w-48 justify-self-center mt-16">
+                            <div className="ml-6 w-48 justify-self-center mt-6">
                                 <p className="uppercase text-gray-800 font-bold text-base mb-2">
                                     Links
                                 </p>
@@ -54,7 +54,7 @@ export class Footer extends React.Component {
                             </div>
                         </div>
                         <div>
-                            <p className="text-gray-500 text-center pb-8 tracking-wider">
+                            <p className="text-gray-500 text-center pb-8 lg:tracking-wider mt-6">
                                 © Gezondd Inc. All rights reserved
                             </p>
                         </div>

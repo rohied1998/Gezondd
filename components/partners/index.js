@@ -5,9 +5,9 @@ export class Partners extends React.Component {
     render() {
         return (
             <Fade>
-                <div className="tracking-widest">
+                <div className="lg:tracking-widest">
                     <p className="text-center text-3xl my-20">Onze partners</p>
-                    <div className="grid grid-cols-3 gap-8 mx-24 mb-20 justify-items-center">
+                    <div className="flex flex-col lg:grid lg:grid-cols-3  gap-8 mx-24 mb-20 justify-items-center">
                         <a href="./ika-ned/">
                         <img src="ika.png" alt="IKA Ned en IKA Academy" className="w-36" />
                         </a>
