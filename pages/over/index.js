@@ -18,11 +18,11 @@ export default function Over() {
                     rel="stylesheet"
                 ></link>
             </Head>
-            <Nav className="fixed block w-screen z-10 bg-white text-black" />
+            {/* <Nav className="fixed block w-screen z-10 bg-white text-black" /> */}
             <Fade>
-                <section className="flex flex-col items-end flex-1 w-full h-full">
-                    <div className="bg-doktor bg-no-repeat bg-cover bg-center mt-7 h-3/5">
-                        <p className="text-2xl text-white font-bold text-left mt-64 mb-52 mx-72 tracking-widest ">
+                <section className="flex flex-col items-end w-screen h-screen lg:w-full lg:h-full">
+                    <div className="bg-doktor bg-no-repeat bg-cover bg-center mt-7 w-screen h-screen lg:h-3/5">
+                        <p className="text-xl mt-48 lg:text-2xl text-white lg:font-bold text-center lg:text-left mx-6 lg:mt-64 lg:mb-52 lg:mx-72 tracking-widest">
                             Gezondd heeft als missie om op een positieve manier een bijdrage te
                             leveren aan arbeid en gezondheid in Nederland voor werkgevers,
                             werknemers en de meer dan één miljoen zelfstandigen en ondernemers, een
@@ -32,14 +32,14 @@ export default function Over() {
                 </section>
             </Fade>
             <Fade>
-                <section className="flex flex-col mx-96 tracking-widest">
-                    <p className="text-2xl mt-20 mb-16 leading-normal ">
+                <section className="flex flex-col mx-6 lg:mx-96 tracking-widest">
+                    <p className="text-xl lg:text-2xl mt-20 mb-16 leading-normal ">
                         Gezondd is hét aanspreekpunt voor u als werkgever, werknemer, casemanager,
                         bedrijfsarts, Arbo professional of zelfstandig ondernemer voor vragen op het
                         gebied van:
                     </p>
                     <div>
-                        <ul className="list-disc text-lg">
+                        <ul className="list-disc lg:text-lg mx-5">
                             <Fade>
                                 <li>Arbeidsomstandighedenbeleid en Arbo deskundigen</li>
                             </Fade>
@@ -140,13 +140,13 @@ export default function Over() {
             </Fade>
             <Fade>
                 <section className="flex flex-1 bg-gray-100 py-24 tracking-widest">
-                    <div className="mx-96">
+                    <div className="mx-6 lg:mx-96">
                         <p className="text-3xl">Landelijke dienstverlening</p>
                         <p className="mt-6">Gezondd werkt vanuit drie vaste locaties:</p>
-                        <div className="grid grid-cols-2 gap-40 mt-6 text-2xl">
+                        <div className="lg:grid lg:grid-cols-2 space-y-6 lg:space-y-0 lg:gap-40 mt-6 text-xl lg:text-2xl">
                             <div className="relative bg-blue-aqua pt-8 rounded-2xl w-full h-full">
                                 <a href="../../pages/amsterdam-contact/">
-                                    <div className="bg-white w-full h-full text-center rounded-2xl p-8 z-10 drop-shadow-lg px-24 py-16">
+                                    <div className="bg-white w-full h-full text-center rounded-2xl p-8 z-10 drop-shadow-lg lg:px-24 py-16">
                                         <p className="font-bold text-blue-aqua">Amsterdam</p>
                                     </div>
                                 </a>

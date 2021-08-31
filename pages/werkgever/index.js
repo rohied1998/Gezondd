@@ -19,11 +19,11 @@ export default function Werkgever() {
                 ></link>
             </Head>
 
-            <Nav className="fixed block w-screen z-10 bg-white text-black" />
+            {/* <Nav className="fixed block w-screen z-10 bg-white text-black" /> */}
             <section className="flex flex-col items-end flex-1 w-full h-full">
                 <Fade>
-                    <div className="bg-doktor bg-no-repeat bg-cover bg-center mt-7 h-3/5">
-                        <p className="text-2xl text-white font-bold text-left my-52 mx-72 tracking-widest ">
+                    <div className="bg-werkgeverdark lg:bg-werkgever bg-no-repeat bg-cover bg-center mt-7 lg:h-3/5">
+                        <p className="text-xl mt-28 mb-24 mx-6 lg:text-2xl text-white text-left lg:font-bold text-left lg:my-52 lg:mx-72 tracking-widest">
                             Gezondd ondersteunt organisaties en bedrijven die onderschrijven dat het
                             succes van de eigen organisatie in kritische mate wordt bepaald door de
                             gezondheid en duurzame inzetbaarheid van hun medewerkers. Deze
@@ -38,9 +38,9 @@ export default function Werkgever() {
                 </Fade>
             </section>
             <section className="flex flex-col tracking-widest">
-                <div className="mx-64">
+                <div className="mx-6 lg:mx-64">
                     <Fade>
-                        <p className="mt-28 text-lg">
+                        <p className="lg:mt-28 mt-12 text-lg">
                             Werkgevers kunnen bij Gezondd terecht om hun organisatie vitaal en
                             gezond te houden in de Meest brede zin van het woord. Onze experts
                             werken op het snijvlak van arbeid en gezondheid en maken daarbij steeds
@@ -249,9 +249,9 @@ export default function Werkgever() {
                     </p>
                 </div>
 
-                <div className="grid grid-cols-2 gap-24 bg-gray-light mt-16">
+                <div className="flex flex-col lg:grid lg:grid-cols-2 lg:gap-24 bg-gray-light px-6 lg:mx-4 mt-16">
                     <Fade>
-                        <div className="ml-64 tracking-widest leading-relaxed">
+                        <div className="lg:ml-64 tracking-widest leading-relaxed">
                             <p className="text-3xl mt-16">Diversiteit</p>
                             <p className="mt-6 text-lg">
                                 Gezondd beschikt over re-integratie-adviseurs, die werkgevers en
@@ -270,7 +270,7 @@ export default function Werkgever() {
                                 zusterorganisatie Inter-Focus.
                             </p>
                         </div>
-                        <div className="mr-64">
+                        <div className="lg:mr-64">
                             <img
                                 className="w-3/5 h-4/5 m-16 float-right"
                                 src="/achter-pc.png"
@@ -279,9 +279,9 @@ export default function Werkgever() {
                     </Fade>
                 </div>
 
-                <div className="mx-64 mb-20">
+                <div className="mx-6 lg:mx-64 mb-20">
                     <Fade>
-                        <p className="text-3xl  mt-16">Duurzame inzetbaarheid</p>
+                        <p className="text-3xl mt-16">Duurzame inzetbaarheid</p>
                         <p className="italic mt-6 text-lg">Toxic Incident Counseling</p>
                         <p className="text-lg mt-4">
                             Het is voor bedrijven met het oog op de gezondheid van hun werknemers

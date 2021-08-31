@@ -3,6 +3,7 @@ import React from "react";
 // components
 import Head from "next/head";
 import { Nav } from "../../components/nav";
+import { Button } from "../../components/button";
 import { Partners } from "../../components/partners";
 import { Footer } from "../../components/footer";
 import Fade from "react-reveal/Fade";
@@ -18,11 +19,11 @@ export default function BedrijfsartsArboprofessional() {
                     rel="stylesheet"
                 ></link>
             </Head>
-            <Nav className="fixed block w-screen z-10 bg-white text-black" />
+            {/* <Nav className="fixed block w-screen z-10 bg-white text-black" /> */}
             <Fade>
-                <section className="flex flex-col items-end flex-1 w-full h-full">
-                    <div className="bg-doktor bg-no-repeat bg-cover bg-center mt-7 h-3/5">
-                        <p className="text-2xl text-white font-bold text-left my-52 mx-72 tracking-widest ">
+                <section className="flex flex-col items-end w-screen lg:w-full lg:h-full">
+                    <div className="bg-bedrijfsartsdark lg:bg-bedrijfsarts bg-no-repeat bg-cover bg-left lg:bg-center mt-7 w-screen min-h-full lg:h-3/5">
+                        <p className="text-xl mx-6 text-left lg:text-2xl text-white lg:font-bold text-left lg:my-52 mt-24 mb-12 lg:mx-72 tracking-widest ">
                             Vanuit mijn deskundigheid als Arboprofessional of bedrijfsarts weet ik
                             dat er veel factoren een rol spelen bij het gezond houden van
                             werknemers, die vanuit een bepaalde functie in een specifieke sector
@@ -38,8 +39,8 @@ export default function BedrijfsartsArboprofessional() {
                     </div>
                 </section>
             </Fade>
-            <section className="flex flex-col tracking-widest">
-                <div className="mx-64">
+            <section className="flex flex-col tracking-widest text-lg mt-12">
+                <div className="lg:mx-64 mx-6">
                     <Fade>
                         <p className="mt-16">
                             Bedrijfsartsen kunnen Gezondd inschakelen als een bepaalde medewerker
@@ -72,6 +73,24 @@ export default function BedrijfsartsArboprofessional() {
                         </p>
                     </Fade>
                 </div>
+            </section>
+            <section>
+                <Fade>
+                    <div className="rounded-md bg-gray-50 lg:p-20 py-16 text-center lg:text-left my-16 lg:my-16 w-full flex flex-col lg:flex-row">
+                        <p className=" lg:ml-10 lg:mr-36 lg:mt-4 text-left lg:w-7/12 lg:tracking-wider mx-4 text-lg lg:text-lg">
+                            Bedrijfsarts op maat, onderdeel van Stichting Praktijkopleiding arbo
+                            professionals, detacheert huisartsen en medisch specialisten die we
+                            opleiden tot bedrijfsarts. Daarnaast detacheren we geregistreerde
+                            bedrijfsartsen. Wij leveren vaste of flexibel inzetbare artsen direct
+                            aan arbodiensten en maatschappen van bedrijfsartsen.
+                        </p>
+                        <Button
+                            link="./contact/"
+                            label="Ga naar de website"
+                            className="bg-blue-aqua h-14 w-52 lg:h-16 lg:w-80 mt-16 lg:my-8 lg:mx-20 rounded-full font-bold text-white drop-shadow-lg"
+                        />
+                    </div>
+                </Fade>
             </section>
             <Partners />
             <Footer />

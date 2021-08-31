@@ -1,5 +1,5 @@
 import Head from "next/head";
-import { Nav } from "../components/nav";
+import Nav from "../components/nav/index.jsx";
 import { Button } from "../components/button";
 import { Partners } from "../components/partners";
 import { Footer } from "../components/footer";
@@ -26,11 +26,12 @@ export default function Home() {
                     rel="stylesheet"
                 ></link>
             </Head>
+            <Nav/>
             {/* <Nav className={scroll ? "fixed text-white z-10" : "fixed bg-white z-10"}></Nav> */}
             <Fade>
                 <section className="flex flex-col items-end w-screen h-screen md:w-full lg:w-full h-screen bg-home bg-cover homepage">
-                    <div className="flex flex-col text-white w-screen lg:w-1/2 md:w-5/12 lg:w-5/12 justify-center lg:justify-end lg:mb-48 mt-36 lg:mt-96 lg:mr-20 ">
-                        <p className="text-4xl lg:text-6xl md:text-4xl text-center lg:text-left">
+                    <div className="flex flex-col text-center text-white w-screen lg:w-1/2 md:w-5/12 lg:w-5/12 justify-center lg:justify-end lg:mb-48 mt-36 lg:mt-96 lg:mr-20 ">
+                        <p className="text-2xl lg:text-6xl md:text-4xl text-center lg:text-left">
                             Ambities realiseren door optimaal presteren
                         </p>
                         <p className="my-8 text-center lg:text-left mx-12 lg:mx-0 lg:w-10/12 leading-relaxed lg:tracking-widest">
@@ -41,7 +42,7 @@ export default function Home() {
                         <Button
                             link="./over/"
                             label="Over Gezondd"
-                            className="bg-green-pastel h-12 w-48 rounded-3xl lg:ml-60 tracking-wider"
+                            className="bg-green-pastel h-12 text-center w-48 rounded-3xl lg:ml-60 tracking-wider"
                         />
                     </div>
                     <div className="flex mx-auto mt-32 lg:mt-12">
@@ -148,7 +149,7 @@ export default function Home() {
                         <Button
                             link="./contact/"
                             label="Voor meer vragen"
-                            className="bg-blue-aqua h-12 w-40 lg:h-16 lg:w-80 mt-16 lg:my-8 lg:mx-20 rounded-full font-bold text-white drop-shadow-lg"
+                            className="bg-blue-aqua h-14 w-52 lg:h-16 lg:w-80 mt-16 lg:my-8 lg:mx-20 rounded-full font-bold text-white drop-shadow-lg"
                         />
                     </div>
                 </Fade>

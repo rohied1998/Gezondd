@@ -19,11 +19,11 @@ export default function ZelfstandigeOndernemer() {
                 ></link>
             </Head>
 
-            <Nav className="fixed block w-screen z-10 bg-white text-black" />
-            <section className="flex flex-col items-end flex-1 w-full h-full">
-                <div className="bg-teddy bg-no-repeat bg-cover bg-center  mt-7 h-3/5">
+            {/* <Nav className="fixed block w-screen z-10 bg-white text-black" /> */}
+            <section className="flex flex-col items-end flex-1 w-screen h-screen lg:w-full lg:h-full">
+                <div className="bg-zelfstandigedark lg:bg-zelfstandige bg-no-repeat bg-cover bg-center w-screen h-4/5 mt-7 lg:h-3/5">
                     <Fade>
-                        <p className="text-2xl text-white font-bold text-left my-52 mx-72 tracking-widest">
+                        <p className="text-lg lg:text-2xl mt-36 mx-6 text-white lg:font-bold text-left lg:my-52 lg:mx-72 tracking-widest">
                             Als ondernemer heb ik ervoor gekozen te allen tijde eigen
                             verantwoordelijkheid te dragen voor mijn gezondheid, herstel en duurzame
                             inzetbaarheid. Deze eigen verantwoordelijkheid kan ik ook dragen omdat
@@ -34,9 +34,9 @@ export default function ZelfstandigeOndernemer() {
                 </div>
             </section>
             <section className="flex flex-col tracking-widest">
-                <div className="mx-64 text-lg">
+                <div className="mx-6 lg:mx-64 text-lg">
                     <Fade>
-                        <p className="mt-16">
+                        <p className="lg:mt-16">
                             Zelfstandigen of ondernemers kunnen Gezondd inschakelen voor advies bij
                             vragen over gezondheid en werk. Bij ziekte, dreigende
                             arbeidsongeschiktheid of na een ongeval, waar letselschade het gevolg
@@ -45,7 +45,7 @@ export default function ZelfstandigeOndernemer() {
                         </p>
                     </Fade>
                 </div>
-                <div className="mx-64 text-lg">
+                <div className="mx-6 lg:mx-64 text-lg">
                     <Fade>
                         <p className="text-3xl mt-16">Arbeidsongeschikt door ziekte?</p>
 
@@ -72,7 +72,7 @@ export default function ZelfstandigeOndernemer() {
                         </p>
                     </Fade>
                     <Fade>
-                        <p className="text-3xl mt-16">Arbeidsongeschiktheidsverzekering?</p>
+                        <p className="text-3xl break-all mt-16">Arbeidsongeschiktheidsverzekering?</p>
                         <p className="mt-6">
                             Heeft u als ondernemer of zelfstandige een
                             Arbeidsongeschiktheidsverzekering (AOV) of bent u lid van een

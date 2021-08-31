@@ -6,15 +6,15 @@ export class Footer extends React.Component {
         return (
             <footer>
                 <Fade>
-                    <div className="w-screen lg:min-w-screen md:min-w-screen bg-gray-100 lg:tracking-widest">
+                    <div className="w-screen lg:w-full bg-gray-100 lg:tracking-widest">
                         <div className="flex flex-col lg:grid lg:grid-cols-4 gap-4">
-                            <div className="mx-auto lg:mx-16 lg:ml-14 lg:mt-16">
+                            <div className="mx-auto lg:mx-16 justify-self-center lg:ml-14 lg:mt-16">
                                 <img
                                     src="gezondd.png"
-                                    className="w-3/5 ml-20 mt-6 lg:my-auto"
+                                    className="w-2/6 lg:w-3/5 justify-center lg:ml-20 mx-auto mt-12 lg:mt-6 lg:my-auto"
                                     alt="Footer Gezondd"
                                 />
-                                <p className="mt-6 lg:h-40 lg:w-40 text-center mx-auto text-lg lg:tracking-wide">
+                                <p className="mt-6 lg:h-40 lg:w-40 text-center mx-auto text-sm lg:text-lg lg:tracking-wide">
                                     Ambities realiseren door optimaal presteren
                                 </p>
                             </div>

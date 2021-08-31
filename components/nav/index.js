@@ -1,6 +1,6 @@
 import React from "react";
 import Link from "next/link";
-// import { Transition } from "@headlessui/react";
+import { Transition } from "@headlessui/react";
 
 export class Nav extends React.Component {
     render() {

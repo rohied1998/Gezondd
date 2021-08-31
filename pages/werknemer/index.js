@@ -19,23 +19,23 @@ export default function Zelfstandige() {
                 ></link>
             </Head>
 
-            <Nav className="fixed block w-screen z-10 bg-white text-black" />
+            {/* <Nav className="fixed block w-screen z-10 bg-white text-black" /> */}
             <Fade>
-                <section className="flex flex-col items-end flex-1 w-full h-full">
-                    <div className="bg-doktor bg-no-repeat bg-cover bg-center mt-7 h-3/5">
-                        <p className="text-2xl text-white font-bold text-left my-52 mx-72 tracking-widest ">
+                <section className="flex flex-col items-end w-screen h-screen lg:w-full lg:h-full">
+                    <div className="bg-werknemerdark lg:bg-werknemer bg-no-repeat bg-cover bg-center mt-7 w-screen h-screen lg:h-3/5">
+                        <p className="text-xl mt-28  lg:text-2xl text-white lg:font-bold mx-6 text-left lg:my-52 lg:mx-72 tracking-widest ">
                             Als werknemer ben ik zelf verantwoordelijk voor mijn gezondheid, herstel
                             en duurzame inzetbaarheid. Een cruciaal aspect van eigen
                             verantwoordelijkheid nemen is tijdig medische expertise inschakelen om
                             samen met mijn werkgever en bedrijfsarts tot een voor mij passend
                             herstel- en gezondheidsplan te komen. Daarnaast zet ik mij proactief in
-                            om de doelstellingen van mijn gezondheidsplan te realiseren.{" "}
+                            om de doelstellingen van mijn gezondheidsplan te realiseren.
                         </p>
                     </div>
                 </section>
             </Fade>
             <section className="flex flex-col tracking-widest">
-                <div className="mx-64  text-gray">
+                <div className="mx-6 lg:mx-64 text-gray">
                     <Fade>
                         <p className="mt-16 text-lg  text-gray">
                             Een werknemer heeft een grote verantwoordelijkheid als het gaat om het

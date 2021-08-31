@@ -3,6 +3,7 @@ import React from "react";
 // components
 import Head from "next/head";
 import { Nav } from "../../components/nav";
+import { Button } from "../../components/button";
 import { Partners } from "../../components/partners";
 import { Footer } from "../../components/footer";
 import Fade from "react-reveal/Fade";
@@ -18,11 +19,11 @@ export default function IkaNed() {
                     rel="stylesheet"
                 ></link>
             </Head>
-            <Nav className="fixed block w-screen z-10 bg-white text-black" />
+            {/* <Nav className="fixed block w-screen z-10 bg-white text-black" /> */}
             <Fade>
-                <section className="flex flex-col items-end flex-1 w-full h-full">
-                    <div className="bg-doktor bg-no-repeat bg-cover bg-center mt-7 h-3/5">
-                        <p className="text-2xl text-white font-bold text-left my-52 mx-72 tracking-widest ">
+                <section className="flex flex-col items-end h-screen w-screen lg:w-full lg:h-full">
+                    <div className="bg-ikadark lg:bg-ika bg-no-repeat bg-cover bg-center mt-7 lg:h-3/5">
+                        <p className="mt-20 mb-8 text-lg lg:text-2xl text-white lg:font-bold text-left mx-6 lg:my-52 lg:mx-72 tracking-widest ">
                             IKA Ned is een tweedelijns zorgorganisatie actief binnen de sectoren
                             overheid, semioverheidsinstellingen, zorg, handel, transport en
                             logistiek. IKA Ned baseert zich hierbij op de jarenlange ervaring van de
@@ -37,7 +38,7 @@ export default function IkaNed() {
                     </div>
                 </section>
             </Fade>
-            <section className="flex flex-col mx-96 mt-16 tracking-widest">
+            <section className="flex flex-col lg:mx-96 mx-6 mt-16 tracking-widest">
                 <div>
                     <ul className="list-disc mx-6 text-lg">
                         <Fade>
@@ -119,6 +120,23 @@ export default function IkaNed() {
                         telkens centraal bij de invulling van het trainingsprogramma en
                         opleidingsdoelstellingen.
                     </p>
+                </Fade>
+            </section>
+            <section>
+                <Fade>
+                    <div className="rounded-md bg-gray-50 lg:p-20 py-16 text-center lg:text-left my-16 lg:my-16 w-full flex flex-col lg:flex-row">
+                        <p className=" lg:ml-10 lg:mr-36 lg:mt-4 lg:w-7/12 lg:tracking-wider mx-4 text-lg lg:text-lg">
+                            IKA Ned is een gespecialiseerd instituut en Centre of Excellence op het
+                            gebied van arbeid en gezondheid. We werken samen met de topspecialisten
+                            en -universiteiten van Nederland. Ook stimuleren we kennisdeling en
+                            onderzoek op het gebied van klinische arbeidsgeneeskunde.
+                        </p>
+                        <Button
+                            link="https://www.ika-ned.nl/"
+                            label="Ga naar de website"
+                            className="bg-blue-aqua h-14 w-52 lg:h-16 lg:w-80 mt-16 lg:my-8 lg:mx-20 rounded-full font-bold text-white drop-shadow-lg"
+                        />
+                    </div>
                 </Fade>
             </section>
             <Partners />

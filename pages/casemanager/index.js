@@ -19,11 +19,11 @@ export default function Casemanager() {
                 ></link>
             </Head>
 
-            <Nav className="fixed block w-screen z-10 bg-white text-black" />
+            {/* <Nav className="fixed block w-screen z-10 bg-white text-black" /> */}
             <Fade>
-                <section className="flex flex-col items-end flex-1 w-full h-full">
-                    <div className="bg-doktor bg-no-repeat bg-cover bg-center mt-7 h-3/5">
-                        <p className="text-2xl text-white font-bold text-left my-52 mx-72 tracking-widest ">
+                <section className="flex flex-col items-end w-screen h-screen lg:w-full lg:h-full">
+                    <div className="bg-casemanagerdark lg:bg-casemanager bg-no-repeat bg-cover bg-center mt-7 w-screen h-screen lg:h-3/5">
+                        <p className="text-xl lg:text-2xl text-white lg:font-bold mx-6 text-left mt-24 mb-12 lg:my-52 lg:mx-72 tracking-widest ">
                             Als casemanager ben ik een belangrijke spin in het web, wanneer een
                             medewerker ziek wordt en verzuimt. Vanuit mijn rol zie ik erop toe dat
                             de noodzakelijke activiteiten rond het verzuim tijdig en soepel worden
@@ -33,8 +33,8 @@ export default function Casemanager() {
                     </div>
                 </section>
             </Fade>
-            <section className="flex flex-col tracking-widest my-24">
-                <div className="mx-64">
+            <section className="flex flex-col tracking-widest mt-12 lg:my-24">
+                <div className="mx-6 lg:mx-64 text-lg">
                     <Fade>
                         <p className="">
                             Casemanagers, die namens de wekgever het proces rond het verzuim van een
