@@ -13,7 +13,7 @@ export default function Navbar() {
 
     return (
         <>
-            <nav className="flex items-center flex-wrap bg-green-pastel p-3 ">
+            <nav className="fixed z-10 flex items-center w-screen flex-wrap bg-green-pastel p-3 ">
                 <Link href="/">
                     <a className="inline-flex items-center p-2 mr-4 ">
                         <img className="h-8 w-auto" src="./gezondd-header.png" alt="Gezondd"></img>
@@ -45,42 +45,42 @@ export default function Navbar() {
                     }   w-full 2xl:inline-flex 2xl:flex-grow 2xl:w-auto`}
                 >
                     <div className="2xl:inline-flex text-lg 2xl:mx-auto 2xl:flex-row  lg:w-auto w-full lg:items-center items-start  flex flex-col lg:h-auto">
-                        <Link href="/over/">
+                        <Link href="/over.html">
                             <a className="lg:inline-flex lg:w-auto w-full px-3 py-2 rounded text-white items-center justify-center hover:bg-green-600 hover:text-white ">
                                 Over Gezondd
                             </a>
                         </Link>
-                        <Link href="/werkgever/">
+                        <Link href="/werkgever.html">
                             <a className="lg:inline-flex lg:w-auto w-full px-3 py-2 rounded text-white items-center justify-center hover:bg-green-600 hover:text-white">
                                 Werkgever
                             </a>
                         </Link>
-                        <Link href="/werknemer/">
+                        <Link href="/werknemer.html">
                             <a className="lg:inline-flex lg:w-auto w-full px-3 py-2 rounded text-white items-center justify-center hover:bg-green-600 hover:text-white">
                                 Werknemer
                             </a>
                         </Link>
-                        <Link href="/zelfstandige-ondernemer">
+                        <Link href="/zelfstandige-ondernemer.html">
                             <a className="lg:inline-flex lg:w-auto w-full px-3 py-2 rounded text-white items-center justify-center hover:bg-green-600 hover:text-white">
                                 Zelfstandige/Ondernemer
                             </a>
                         </Link>
-                        <Link href="/casemanager/">
+                        <Link href="/casemanager.html">
                             <a className="lg:inline-flex lg:w-auto w-full px-3 py-2 rounded text-white items-center justify-center hover:bg-green-600 hover:text-white">
                                 Casemanager
                             </a>
                         </Link>
-                        <Link href="/bedrijfsarts-arboprofessionals">
+                        <Link href="/bedrijfsarts-arboprofessionals.html">
                             <a className="lg:inline-flex lg:w-auto w-full px-3 py-2 rounded text-white items-center justify-center hover:bg-green-600 hover:text-white">
                                 Bedrijfsarts/Arboprofessionals
                             </a>
                         </Link>
-                        <Link href="/ika-ned">
+                        <Link href="/ika-ned.html">
                             <a className="lg:inline-flex lg:w-auto w-full px-3 py-2 rounded text-white items-center justify-center hover:bg-green-600 hover:text-white">
                                 IKA Ned
                             </a>
                         </Link>
-                        <Link href="/contact/">
+                        <Link href="/contact.html">
                             <a className="lg:inline-flex lg:w-auto w-full px-3 py-2 rounded text-white items-center justify-center hover:bg-green-600 hover:text-white">
                                 Contact
                             </a>

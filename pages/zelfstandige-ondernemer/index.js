@@ -3,7 +3,7 @@ import Fade from "react-reveal/Fade";
 
 // components
 import Head from "next/head";
-import { Nav } from "../../components/nav";
+import Nav from "../../components/nav/index.jsx";
 import { Partners } from "../../components/partners";
 import { Footer } from "../../components/footer";
 
@@ -19,9 +19,9 @@ export default function ZelfstandigeOndernemer() {
                 ></link>
             </Head>
 
-            {/* <Nav className="fixed block w-screen z-10 bg-white text-black" /> */}
-            <section className="flex flex-col items-end flex-1 w-screen h-screen lg:w-full lg:h-full">
-                <div className="bg-zelfstandigedark lg:bg-zelfstandige bg-no-repeat bg-cover bg-center w-screen h-4/5 mt-7 lg:h-3/5">
+            <Nav/>
+            <section className="flex flex-col items-end flex-1 h-screen w-full lg:h-full">
+                <div className="bg-zelfstandigedark lg:bg-zelfstandige bg-no-repeat bg-cover bg-center h-4/5  lg:h-3/5">
                     <Fade>
                         <p className="text-lg lg:text-2xl mt-36 mx-6 text-white lg:font-bold text-left lg:my-52 lg:mx-72 tracking-widest">
                             Als ondernemer heb ik ervoor gekozen te allen tijde eigen

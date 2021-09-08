@@ -8,14 +8,6 @@ import { Link } from "react-scroll";
 import Fade from "react-reveal/Fade";
 
 export default function Home() {
-    const [scroll, setScroll] = useState(true);
-
-    useEffect(() => {
-        window.addEventListener("scroll", () => {
-            setScroll(window.scrollY < 1050);
-        });
-    }, []);
-
     return (
         <>
             <Head>
@@ -26,8 +18,7 @@ export default function Home() {
                     rel="stylesheet"
                 ></link>
             </Head>
-            <Nav/>
-            {/* <Nav className={scroll ? "fixed text-white z-10" : "fixed bg-white z-10"}></Nav> */}
+            <Nav />
             <Fade>
                 <section className="flex flex-col items-end w-screen h-screen md:w-full lg:w-full h-screen bg-home bg-cover homepage">
                     <div className="flex flex-col text-center text-white w-screen lg:w-1/2 md:w-5/12 lg:w-5/12 justify-center lg:justify-end lg:mb-48 mt-36 lg:mt-96 lg:mr-20 ">
@@ -40,12 +31,12 @@ export default function Home() {
                             optimaal te kunnen blijven werken of te ondernemen.
                         </p>
                         <Button
-                            link="./over/"
+                            link="./over.html"
                             label="Over Gezondd"
-                            className="bg-green-pastel h-12 text-center w-48 rounded-3xl lg:ml-60 tracking-wider"
+                            className="bg-green-pastel h-12 text-center w-48 rounded-3xl lg:mr-28 tracking-wider"
                         />
                     </div>
-                    <div className="flex mx-auto mt-32 lg:mt-12">
+                    <div className="flex mx-auto mt-52 md:mt-64 lg:mt-10 xl:mt-2 2xl:mt-20">
                         <Link to="intro" spy={true} smooth={true} offset={-100} duration={500}>
                             <svg
                                 className="animate-bounce w-6 h-6 text-white mx-auto"
@@ -147,7 +138,7 @@ export default function Home() {
                             letselschade experts en deskundigen op het gebied van diversiteit.
                         </p>
                         <Button
-                            link="./contact/"
+                            link="./contact.html"
                             label="Voor meer vragen"
                             className="bg-blue-aqua h-14 w-52 lg:h-16 lg:w-80 mt-16 lg:my-8 lg:mx-20 rounded-full font-bold text-white drop-shadow-lg"
                         />

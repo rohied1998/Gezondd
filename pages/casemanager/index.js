@@ -3,7 +3,7 @@ import Fade from "react-reveal/Fade";
 
 // components
 import Head from "next/head";
-import { Nav } from "../../components/nav";
+import Nav from "../../components/nav/index.jsx";
 import { Partners } from "../../components/partners";
 import { Footer } from "../../components/footer";
 
@@ -19,10 +19,10 @@ export default function Casemanager() {
                 ></link>
             </Head>
 
-            {/* <Nav className="fixed block w-screen z-10 bg-white text-black" /> */}
+            <Nav />
             <Fade>
                 <section className="flex flex-col items-end w-screen h-screen lg:w-full lg:h-full">
-                    <div className="bg-casemanagerdark lg:bg-casemanager bg-no-repeat bg-cover bg-center mt-7 w-screen h-screen lg:h-3/5">
+                    <div className="bg-casemanagerdark lg:bg-casemanager bg-no-repeat bg-cover bg-center w-screen h-screen lg:h-3/5">
                         <p className="text-xl lg:text-2xl text-white lg:font-bold mx-6 text-left mt-24 mb-12 lg:my-52 lg:mx-72 tracking-widest ">
                             Als casemanager ben ik een belangrijke spin in het web, wanneer een
                             medewerker ziek wordt en verzuimt. Vanuit mijn rol zie ik erop toe dat

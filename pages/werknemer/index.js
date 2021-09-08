@@ -3,7 +3,7 @@ import Fade from "react-reveal/Fade";
 
 // components
 import Head from "next/head";
-import { Nav } from "../../components/nav";
+import Nav from "../../components/nav/index.jsx";
 import { Partners } from "../../components/partners";
 import { Footer } from "../../components/footer";
 
@@ -19,10 +19,10 @@ export default function Zelfstandige() {
                 ></link>
             </Head>
 
-            {/* <Nav className="fixed block w-screen z-10 bg-white text-black" /> */}
+            <Nav/>
             <Fade>
-                <section className="flex flex-col items-end w-screen h-screen lg:w-full lg:h-full">
-                    <div className="bg-werknemerdark lg:bg-werknemer bg-no-repeat bg-cover bg-center mt-7 w-screen h-screen lg:h-3/5">
+                <section className="flex flex-col items-end h-screen w-full lg:h-full">
+                    <div className="bg-werknemerdark lg:bg-werknemer bg-no-repeat bg-cover bg-center h-screen lg:h-3/5">
                         <p className="text-xl mt-28  lg:text-2xl text-white lg:font-bold mx-6 text-left lg:my-52 lg:mx-72 tracking-widest ">
                             Als werknemer ben ik zelf verantwoordelijk voor mijn gezondheid, herstel
                             en duurzame inzetbaarheid. Een cruciaal aspect van eigen

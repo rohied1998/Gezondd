@@ -2,7 +2,7 @@ import React from "react";
 
 // components
 import Head from "next/head";
-import { Nav } from "../../components/nav";
+import Nav from "../../components/nav/index.jsx";
 import { Button } from "../../components/button";
 import { Partners } from "../../components/partners";
 import { Footer } from "../../components/footer";
@@ -19,10 +19,10 @@ export default function BedrijfsartsArboprofessional() {
                     rel="stylesheet"
                 ></link>
             </Head>
-            {/* <Nav className="fixed block w-screen z-10 bg-white text-black" /> */}
+            <Nav />
             <Fade>
-                <section className="flex flex-col items-end w-screen lg:w-full lg:h-full">
-                    <div className="bg-bedrijfsartsdark lg:bg-bedrijfsarts bg-no-repeat bg-cover bg-left lg:bg-center mt-7 w-screen min-h-full lg:h-3/5">
+                <section className="flex flex-col items-end w-full lg:h-full">
+                    <div className="bg-bedrijfsartsdark lg:bg-bedrijfsarts bg-no-repeat bg-cover bg-left lg:bg-center min-h-full lg:h-3/5">
                         <p className="text-xl mx-6 text-left lg:text-2xl text-white lg:font-bold text-left lg:my-52 mt-24 mb-12 lg:mx-72 tracking-widest ">
                             Vanuit mijn deskundigheid als Arboprofessional of bedrijfsarts weet ik
                             dat er veel factoren een rol spelen bij het gezond houden van
@@ -85,7 +85,7 @@ export default function BedrijfsartsArboprofessional() {
                             aan arbodiensten en maatschappen van bedrijfsartsen.
                         </p>
                         <Button
-                            link="./contact/"
+                            link="https://www.bedrijfsartsopmaat.nl/"
                             label="Ga naar de website"
                             className="bg-blue-aqua h-14 w-52 lg:h-16 lg:w-80 mt-16 lg:my-8 lg:mx-20 rounded-full font-bold text-white drop-shadow-lg"
                         />

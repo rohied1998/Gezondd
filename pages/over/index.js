@@ -3,7 +3,7 @@ import Fade from "react-reveal/Fade";
 
 // components
 import Head from "next/head";
-import { Nav } from "../../components/nav";
+import Nav from "../../components/nav/index.jsx";
 import { Partners } from "../../components/partners";
 import { Footer } from "../../components/footer";
 
@@ -18,10 +18,10 @@ export default function Over() {
                     rel="stylesheet"
                 ></link>
             </Head>
-            {/* <Nav className="fixed block w-screen z-10 bg-white text-black" /> */}
+            <Nav />
             <Fade>
-                <section className="flex flex-col items-end w-screen h-screen lg:w-full lg:h-full">
-                    <div className="bg-doktor bg-no-repeat bg-cover bg-center mt-7 w-screen h-screen lg:h-3/5">
+                <section className="flex flex-col items-end h-screen w-full lg:h-full">
+                    <div className="bg-doktor mt-auto bg-no-repeat bg-cover bg-center h-screen lg:h-3/5">
                         <p className="text-xl mt-48 lg:text-2xl text-white lg:font-bold text-center lg:text-left mx-6 lg:mt-64 lg:mb-52 lg:mx-72 tracking-widest">
                             Gezondd heeft als missie om op een positieve manier een bijdrage te
                             leveren aan arbeid en gezondheid in Nederland voor werkgevers,
@@ -139,20 +139,20 @@ export default function Over() {
                 </section>
             </Fade>
             <Fade>
-                <section className="flex flex-1 bg-gray-100 py-24 tracking-widest">
+                <section className="flex flex-1 bg-gray-100 py-24 justify-center tracking-widest">
                     <div className="mx-6 lg:mx-96">
                         <p className="text-3xl">Landelijke dienstverlening</p>
                         <p className="mt-6">Gezondd werkt vanuit drie vaste locaties:</p>
-                        <div className="lg:grid lg:grid-cols-2 space-y-6 lg:space-y-0 lg:gap-40 mt-6 text-xl lg:text-2xl">
+                        <div className="lg:grid lg:grid-cols-2 space-y-6 lg:space-y-0 lg:gap-40 mt-6 text-xl xl:text-sm 2xl:text-xl lg:text-2xl">
                             <div className="relative bg-blue-aqua pt-8 rounded-2xl w-full h-full">
-                                <a href="../../pages/amsterdam-contact/">
+                                <a href="../amsterdam-contact.html">
                                     <div className="bg-white w-full h-full text-center rounded-2xl p-8 z-10 drop-shadow-lg lg:px-24 py-16">
                                         <p className="font-bold text-blue-aqua">Amsterdam</p>
                                     </div>
                                 </a>
                             </div>
                             <div className="relative bg-blue-aqua pt-8 rounded-2xl w-full h-full">
-                                <a href="../../pages/contact/">
+                                <a href="../contact.html">
                                     <div className="bg-white w-full h-full text-center rounded-2xl p-8 z-10 drop-shadow-lg px-24 py-16">
                                         <p className="font-bold text-blue-aqua">Den Haag</p>
                                     </div>

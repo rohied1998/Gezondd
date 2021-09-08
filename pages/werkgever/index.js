@@ -3,7 +3,7 @@ import Fade from "react-reveal/Fade";
 
 // components
 import Head from "next/head";
-import { Nav } from "../../components/nav";
+import Nav from "../../components/nav/index.jsx";
 import { Partners } from "../../components/partners";
 import { Footer } from "../../components/footer";
 
@@ -19,10 +19,10 @@ export default function Werkgever() {
                 ></link>
             </Head>
 
-            {/* <Nav className="fixed block w-screen z-10 bg-white text-black" /> */}
+            <Nav />
             <section className="flex flex-col items-end flex-1 w-full h-full">
                 <Fade>
-                    <div className="bg-werkgeverdark lg:bg-werkgever bg-no-repeat bg-cover bg-center mt-7 lg:h-3/5">
+                    <div className="bg-werkgeverdark lg:bg-werkgever bg-no-repeat bg-cover bg-center lg:h-3/5">
                         <p className="text-xl mt-28 mb-24 mx-6 lg:text-2xl text-white text-left lg:font-bold text-left lg:my-52 lg:mx-72 tracking-widest">
                             Gezondd ondersteunt organisaties en bedrijven die onderschrijven dat het
                             succes van de eigen organisatie in kritische mate wordt bepaald door de

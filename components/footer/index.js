@@ -8,7 +8,7 @@ export class Footer extends React.Component {
                 <Fade>
                     <div className="w-screen lg:w-full bg-gray-100 lg:tracking-widest">
                         <div className="flex flex-col lg:grid lg:grid-cols-4 gap-4">
-                            <div className="mx-auto lg:mx-16 justify-self-center lg:ml-14 lg:mt-16">
+                            <div className="mx-auto lg:mx-16 justify-self-center lg:ml-14 lg:mt-10">
                                 <img
                                     src="gezondd.png"
                                     className="w-2/6 lg:w-3/5 justify-center lg:ml-20 mx-auto mt-12 lg:mt-6 lg:my-auto"
@@ -19,7 +19,7 @@ export class Footer extends React.Component {
                                 </p>
                             </div>
 
-                            <div className="ml-5 justify-self-center mt-6 lg:mt-20">
+                            <div className="ml-5 justify-self-center mt-6 lg:mt-16">
                                 <div>
                                     <p className="uppercase text-gray-800 font-bold text-base mb-2">
                                         Contact
@@ -31,22 +31,19 @@ export class Footer extends React.Component {
                                 <p className="text-sm">2514 AB s&apos;Gravenhage</p>
                             </div>
 
-                            <div className="ml-6 w-48 justify-self-center mt-6">
+                            <div className="ml-6 w-48 justify-self-center mt-16">
                                 <p className="uppercase text-gray-800 font-bold text-base mb-2">
                                     Vestigingen
                                 </p>
-                                <a
-                                    href="../../pages/amsterdam-contact/"
-                                    className="hover:text-white"
-                                >
+                                <a href="../amsterdam-contact.html" className="hover:text-white">
                                     <p className="text-sm">Amsterdam</p>
                                 </a>
-                                <a href="../../pages/contact/" className="hover:text-white">
+                                <a href="../contact.html" className="hover:text-white">
                                     <p className="text-sm">Den Haag</p>
                                 </a>
                             </div>
 
-                            <div className="ml-6 w-48 justify-self-center mt-6">
+                            <div className="ml-6 w-48 justify-self-center mt-16">
                                 <p className="uppercase text-gray-800 font-bold text-base mb-2">
                                     Links
                                 </p>

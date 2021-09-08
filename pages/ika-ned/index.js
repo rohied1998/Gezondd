@@ -2,7 +2,7 @@ import React from "react";
 
 // components
 import Head from "next/head";
-import { Nav } from "../../components/nav";
+import Nav from "../../components/nav/index.jsx";
 import { Button } from "../../components/button";
 import { Partners } from "../../components/partners";
 import { Footer } from "../../components/footer";
@@ -19,10 +19,10 @@ export default function IkaNed() {
                     rel="stylesheet"
                 ></link>
             </Head>
-            {/* <Nav className="fixed block w-screen z-10 bg-white text-black" /> */}
+            <Nav />
             <Fade>
-                <section className="flex flex-col items-end h-screen w-screen lg:w-full lg:h-full">
-                    <div className="bg-ikadark lg:bg-ika bg-no-repeat bg-cover bg-center mt-7 lg:h-3/5">
+                <section className="flex flex-col items-end h-screen w-full lg:h-full">
+                    <div className="bg-ikadark lg:bg-ika bg-no-repeat bg-cover bg-center lg:h-3/5">
                         <p className="mt-20 mb-8 text-lg lg:text-2xl text-white lg:font-bold text-left mx-6 lg:my-52 lg:mx-72 tracking-widest ">
                             IKA Ned is een tweedelijns zorgorganisatie actief binnen de sectoren
                             overheid, semioverheidsinstellingen, zorg, handel, transport en
